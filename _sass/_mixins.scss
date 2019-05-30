@@ -1,0 +1,78 @@
+/* Mixins
+------------------------------------------------------------------ */
+
+@mixin latoLight{
+	font-weight: 300;
+}
+
+@mixin latoRegular{
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+@mixin latoMedium{
+	font-weight: 500;
+}
+
+@mixin latoSemibold{
+	font-weight: 600;
+}
+
+@mixin latoBold{
+	font-weight: 700;
+	letter-spacing: -0.32px;
+}
+
+@mixin latoHeavy{
+	font-weight: 800;
+}
+
+@mixin sidebarLink{
+	@include latoRegular;
+	color: $purple__dark;
+	text-decoration:none;
+	font-size: 18px;
+	&:hover{
+		color: $pink;
+	}
+	&.active{
+		color: $pink;
+		@include latoBold;
+	}
+}
+
+@mixin fadeAnimation{
+	transition: all 0.3s ease 0s;
+}
+
+
+@mixin buttonPrimaryHover{
+	color: $white;
+	background: $buttonPrimary;
+	border: $buttonPrimary;
+	&:hover{
+		background: darken($buttonPrimary, 5%);
+	}
+}
+
+@mixin sidebarTitle{
+	color: #6A6F75;
+	@include latoBold;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+
+@mixin sidebarPrimary{
+	font-size: 13px;
+	color: $tableEmailText;
+	@include latoRegular;
+
+}
+
+@mixin menuAnimation{
+	transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+}

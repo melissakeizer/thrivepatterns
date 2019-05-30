@@ -1,0 +1,255 @@
+/* Base Styling
+------------------------------------------------------------------ */
+
+@import "mixins";
+@import "typography";
+@import "variables";
+
+
+*{
+   box-sizing: border-box;
+   -moz-box-sizing:border-box;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -webkit-backface-visibility: hidden;
+}
+
+a{
+	@include fadeAnimation;
+}
+
+body{
+  background-color: $purple__background;
+  z-index: 1;
+}
+
+*:focus, textarea:focus, input:focus {
+    outline: none;
+}
+
+
+
+/* Main Content Area
+------------------------------------------------------------------ */
+
+.main__content{
+	padding: 80px 0;
+  float: left;
+  background: $white;
+  margin-top: -75px;
+  width: 80%;
+  border-radius: 3px;
+  border: 1px solid #EFEFEF;
+  box-shadow: 0 2px 4px 2px rgba(132,132,132,0.18);
+  min-height: 500px;
+}
+
+.main__content--home{
+  float: none;
+  margin: -75px auto auto auto;
+}
+
+.main__content__img{
+	padding: 30px 0 60px 0;
+}
+
+.main__content p, .main__content h1, .main__content h2, .main__content ul, .main__content h3{
+	max-width: 595px;
+	margin: 0 auto;
+  width: 80%;
+}
+
+.main__content ul{
+  padding-bottom: 2em;
+}
+
+.main__content img{
+	width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container{
+	margin: 0 auto;
+	display: block;
+	width: 90%;
+	max-width: 1250px;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	padding: 5% 0 5% 0;
+	color: $purple__light;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+
+/* Blocks
+------------------------------------------------------------------ */
+
+.main__content__block{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main__content .main__content__block.widerThanText{
+  max-width: none;
+}
+
+.textWidth{
+  max-width: 595px;
+}
+
+.main__content__block__half, .main__content__block__third{
+  width: 46.5%;
+	display: inline-block;
+	border: 1px solid #F4F4F4;
+	box-shadow: 0 2px 3px 0 rgba(208,208,208,0.50);
+	border-radius: 7px;
+	margin: 3% 3% 3% 0;
+	padding: 22px;
+	text-align: center;
+	@include latoBold;
+	&:hover{
+		box-shadow: 0 2px 7px 0 rgba(132,132,132,0.50);
+	}
+}
+
+.main__content__block__third{
+  width: 30.5%;
+}
+
+.main__content__block__third--last{
+	margin-right: 0;
+}
+
+.block__link__icon{
+	color: $pink;
+}
+
+.styling__block{
+	padding: 30px;
+	border: solid 1px $borderColor;
+	border-radius: 7px;
+	margin-bottom: 100px;
+}
+
+.paragraph--meta--top{
+	padding: 20px 0 10px 0;
+}
+
+.paragraph--meta--bottom{
+	padding: 10px 0 20px 0;
+	border-bottom: solid 1px $borderColor;
+}
+
+ul.styling__block li:first-child .paragraph--meta--top{
+	padding: 0 0 10px 0;
+}
+
+ul.styling__block li:last-child .paragraph--meta--bottom{
+	border: none;
+	padding: 10px 0 0 0;
+}
+
+li.colour__block{
+	width: 22.6%;
+	margin-right: 2%;
+	height: 135px;
+  display: inline-block;
+	position: relative;
+	border-radius: 7px;
+  &:last-child{
+    margin-right: 0;
+  }
+	&--one{
+		background: $cmsGrey;
+	}
+	&--two{
+		background: $cmsPlaceholder;
+	}
+	&--three{
+		background: $cmsLink;
+	}
+	&--four{
+		background: $red;
+	}
+	&--five{
+		background: $buttonPrimary;
+	}
+	&--six{
+		background: $buttonSecondary;
+	}
+	&--seven{
+		background: $buttonSecondaryText;
+	}
+	&--eight{
+		background: $tableRow;
+	}
+	&--nine{
+		background: $tableHead;
+	}
+	&--ten{
+		background: $componentBorder;
+	}
+    &--eleven{
+		background: $buttonPublish;
+	}
+    &--twelve{
+		background: $cmsLightGrey;
+	}
+    &--thirteen{
+        background: 
+            #6D7C98;
+    }
+    &--fourteen{
+        background: 
+            #EDF0F3;
+    }
+}
+
+.colour__block__info{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0.5em;
+	background: rgba(0,0,0,0.2);
+	p{
+		color: $white;
+		font-size: 12px;
+		padding-bottom: 3px;
+    width: 100%;
+	}
+}
+
+/* Main Content Images
+------------------------------------------------------------------ */
+
+.imageContainer{
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  img{
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.6,.25,1);
+    // &:hover{
+    //   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    // }
+  }
+}
+.imageContainer--two{
+  img{
+    width: 48.5%;
+    margin-right: 2%;
+    display: inline-block;
+    &.last{
+      margin-right: 0;
+    }
+  }
+}

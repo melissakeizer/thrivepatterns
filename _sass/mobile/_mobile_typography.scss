@@ -1,0 +1,165 @@
+/* Typography for Web App
+------------------------------------------------------------------ */
+@import "mobile_variables";
+
+body{
+	font-family: halyard-display, sans-serif;
+	color: $textColor;
+}
+
+@mixin halyardBook{
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@mixin halyardBookItalic{
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@mixin halyardRegular{
+	font-family: halyard-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin halyardRegularItalic{
+	font-family: halyard-display, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@mixin halyardMedium{
+	font-family: halyard-display, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@mixin halyardSemibold{
+	font-family: halyard-display, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@mixin halyardBold{
+	font-family: halyard-display, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+/* Modular Text Styles
+------------------------------------------------------------------ */
+a{
+  cursor:pointer;
+}
+
+.mobileModularPage__paragraph{
+  color: $PrimaryBodyColour;
+  font-size: 17px;
+  @include halyardBook;
+	a{
+		border-bottom: 1px solid $BorderGrey;
+		&:hover{
+			border-color: $PrimaryBodyColour;
+		}
+	}
+}
+
+.mobileModularPage__heading1{
+  color: $PrimaryBodyColour;
+  font-size: 27px;
+  @include halyardBold;
+}
+
+.mobileModularPage__heading2{
+  color: $PrimaryBodyColour;
+  font-size: 21px;
+  @include halyardMedium;
+}
+
+.mobileModularPage__heading3{
+  color: $PrimaryBodyColour;
+  font-size: 18px;
+  @include latoSemibold;
+}
+
+.mobileModularPage__heading4{
+  color: $SecondaryBodyColour;
+  font-size: 15px;
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase;
+  @include latoBold;
+}
+
+.mobileModularPage__blockquoteone{
+  color: $PrimaryBodyColour;
+  font-size: 22px;
+  font-style: italic;
+  @include latoLight;
+}
+
+.mobileModularPage__socialStats{
+  color: $MetaTextColour;
+  font-size: 14px;
+  @include latoRegular;
+}
+
+.mobileModularPage__commenter{
+  color: $PrimaryBodyColour;
+  font-size: 15px;
+  @include latoBold;
+}
+
+.mobileModularPage__metatext{
+  color: $MetaTextColour;
+  font-size: 13px;
+  @include latoRegular;
+}
+
+.mobileModularPage__commentBody{
+  color: $PrimaryBodyColour;
+  font-size: 16px;
+  line-height: 1.3em;
+  @include latoRegular;
+}
+
+.mobileModularPage__caption{
+  color: $SecondaryBodyColour;
+  font-size: 14px;
+  line-height: 1.2em;
+  @include latoRegular;
+}
+
+
+
+
+/* Screen Styles
+------------------------------------------------------------------ */
+
+.mobileScreen__heading1{
+  color: $PrimaryBodyColour;
+  font-size: 23px;
+  @include latoRegular;
+}
+
+.mobileScreen__paragraph{
+  color: $PrimaryBodyColour;
+  font-size: 16px;
+  @include latoRegular;
+}
+
+.mobileScreen__link{
+  color: $LinkColour;
+  font-size: 16px;
+  @include latoRegular;
+}
+
+.mobileScreen__meta{
+  color: $SecondaryBodyColour;
+  font-size: 13px;
+  @include latoRegular;
+}

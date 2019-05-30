@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google-site-verification" content="prSAh6gEAIltr7n1XBk4OwwhBeOy6sHvXdGvNZaT8Pc" />
+
+  <link rel="stylesheet" href="https://use.typekit.net/ruc6lvt.css">
+
+  <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <title>Buttons & Links | TheAppBuilder Pattern Library</title>
+  <meta name="description" content="=TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+">
+  <link rel="stylesheet" href="/dist/aos.css" />
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="canonical" href="http://localhost:4000/cms/buttons/">
+  <link rel="alternate" type="application/atom+xml" title="TheAppBuilder Pattern Library" href="http://localhost:4000/feed.xml" />
+
+  <meta property="og:title" content="Pattern Library | TheAppBuilder" />
+  <meta property="og:description" content="TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+" />
+  <meta property="og:url" content="http://theappbuilder.com" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Pattern Library | TheAppBuilder" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image:src" content="" />
+  <meta name="twitter:url" content="https://melissakeizer.github.io/tab-pattern-library/" />
+  <meta name="twitter:title" content="Pattern Library | TheAppBuilder" />
+  <meta name="twitter:description" content="TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+" />
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/js/all.js"></script>
+    <link rel=icon href="/assets/images/favicon.ico" >
+
+</head>
+
+  <body>
+    <nav class="navigation__primary">
+	<div class="container">
+		<a href="/" class="logo logo--main"><img src="/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
+		  <a href="#" id="navigation__mobile__icon" class="hamburgerMenu"><img src="/assets/images/base/burger-menu.svg" alt="Open Menu" /img></a>
+	    <ul class="navigation__primary__list">
+	      <li  class="platform"><a href="/cms/" class="active" >Content Management System</a></li>
+	      <li class="platform"><a href="/native/" >Mobile Apps</a></li>
+	      <li class="platform"><a href="/webapp/" >Webapp</a></li>
+          <li class="platform"><a href="/history/" >Revision History</a></li>
+	    </ul>
+	</div>
+</nav>
+
+    <nav class="navigation__secondary">
+    <ul class="navigation__secondary__list">
+      <li><a href="/mobile/"  >Introduction</a></li>
+      <li><a href="/mobile/typography/"  >Typography</a></li>
+
+</nav>
+
+      <div class="main" id="page--cms-buttons">
+        <article class="container">
+          <nav class="navigation__secondary">
+    <ul class="navigation__secondary__list">
+      <li><a href="/cms/"  >Introduction</a></li>
+  		<li><a href="/cms/typography/"  >Typography</a></li>
+  		<li><a href="/cms/buttons/" class="active" >Buttons &amp; Links</a></li>
+      <li><a href="/cms/tags/"  >Tags</a></li>
+      <li><a href="/cms/colours/"  >Colour Palette</a></li>
+  		<li><a href="/cms/forms/"  >Forms</a></li>
+      <li><a href="/cms/errors/"  >Errors &amp; Warnings</a></li>
+  		<li><a href="/cms/tables/"  >Using Tables</a></li>
+  		<!-- <li><a href="/cms/search/"  >Search</a></li> -->
+  		<li><a href="/cms/page/"  >Styling a Page</a></li>
+        <li><a href="/cms/panels/"  >Panels</a></li>
+  		<li><a href="/cms/modals/"  >Modals</a></li>
+        <li><a href="/cms/media-modals/"  >Media Modals</a></li>
+        <li><a href="/cms/icons/"  >Icons &amp; Illustrations</a></li>
+        <li><a href="/cms/widgets/"  >Widgets</a></li>
+        <li><a href="/cms/tooltips/"  >Tooltips</a></li>
+    </ul>
+</nav>
+
+          <div class="main__content">
+            <h1>Buttons & Links</h1>
+            <p>Throughout the Org Admin screens in the content management system we the primary button to allow users to perform core actions such as saving changes to forms or adding users to user groups or channels. </p>
+
+<h2>Primary button</h2>
+<p>The primary button should only be used for positive, progressive actions. The primary button will appear grey (disabled state) until the user takes an action like updating the form on the page, then it will be blue to indicate changes have been made and that they are able to save them.</p>
+
+<div class="imageContainer imageContainer--two padding__50">
+    <img src="/assets/images/cms/disabled_button.jpg" alt="BButtons before and after a user has made changes to watchers" /img>
+    <img src="/assets/images/cms/primary_button.jpg" alt="Buttons before and after a user has made changes to watchers" class="last" /img>
+    <p class="caption">Buttons before and after a user has made changes to watchers</p>
+</div>
+
+<h2>Secondary button</h2>
+<p>The primary button will be accompanied by a secondary button, most of the time this is a cancel button that allows them to discard their changes.</p>
+
+<p>The button elements are shown below. Note that the background of the secondary button is transparent rather than white. </p>
+
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--primary">Primary Button</button>
+    <button class="button--primary button--disabled">Disabled Button</button>
+    <button class="button--secondary">Secondary Button</button>
+</div>
+
+<p>We also have mini versions of the primary and secondary buttons. These are used in the search bars above tables in the Org Admin screens.</p>
+
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--primary button--mini">Mini Primary Button</button>
+    <button class="button--secondary button--mini">Mini Secondary Button</button>
+</div>
+
+<!------- Content widget buttons ---------->
+
+<h2>Content Widget buttons</h2>
+<p>The content widget buttons are used by app editors to create lists and to build content within a modular page.</p>
+
+<p>Below is an example of the hover and active state of content widget buttons.</p>
+<p>Content widget button Labels should be styled as paragraph text. See <a href="/cms/typography/">CMS Typography</a> for styling.</p>
+
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/list_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/page_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/existing_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/video_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/contact_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/webpage_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/file_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/rss_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/image_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/text_icon.svg"></button>
+     <button class="button--widget button--widget--content"><img src="/assets/images/cms/new_icons/html_icon.svg"></button>
+</div>
+<div class="imageContainer imageContainer--two padding__50">
+    <img src="/assets/images/cms/widgets/list_widgets.jpg" alt="list" /img>
+    <img src="/assets/images/cms/widgets/modular_page_widgets.jpg" alt="modular page" class="last" /img>
+    <p class="caption">Examples of content widget buttons on a list (left) and a modular page (right).</p>
+</div>
+<!------- Modular page widget controls  ---------->
+
+<h2>Widget Control buttons</h2>
+<p>The widget control buttons are used to organise the order and delete content widgets a modular page. </p>
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--widget button--widget--control"><img src="/assets/images/cms/new_icons/up_arrow.svg"></button>
+    <button class="button--widget button--widget--control"><img src="/assets/images/cms/new_icons/down_arrow.svg"></button>
+    <button class="button--widget bin"><img src="/assets/images/cms/new_icons/red_bin.svg"></button>
+    <button class="button--widget button--widget--control"><img src="/assets/images/cms/new_icons/add_widget.svg"></button>
+</div>
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="/assets/images/cms/no_shadow_modular_page.jpg" alt="list" /img>
+    <p class="caption">Examples of widget control buttons on a modular page. <a href="index.html">(See typography section)</a></p>
+</div>
+
+<h2>Links</h2>
+<p>Links are used instead of buttons for many other actions a user can take on a screen. For example, adding new users to channels or user groups. These blue links will often had a “+” in front of the text to indicate the adding action.</p>
+
+<p>Micro links are also used in the Editor section of the CMS to display the number of groups that can view content and link to the audience tab for that content.</p>
+
+<div class="main__content__block textWidth padding__50">
+    <a href="#" class="text--link padding__right15">Edit Permissions</a>
+    <a href="#" class="text--link padding__right15">+ Add New User</a>
+    <a href="#" class="text--link--micro padding__right15">12 Groups</a>
+    <a href="#" class="text--link--micro">Everyone</a>
+</div>
+
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="/assets/images/cms/adding_user_group.jpg" alt="Adding new user groups to a user"/img>
+    <p class="caption">Adding new user groups to a UGC list</p>
+</div>
+
+
+<h2>Media Library Buttons</h2>
+<p>The media library button is used in the file, image and video upload widget when building content on a modular page.</p>
+<p>Generic primary, secondary and disabled buttons are used within the media library but below are the unique buttons used in the media library.</p>
+    <div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--drag"><span class="button--greytxt">Drag File to Upload or <span class="button--link2">Choose File</span></span></button>
+    </div>
+
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="/assets/images/cms/new_icons/upload_media_library_button_example.jpg" alt="modular page" class="last" /img>
+    <p class="caption">Example of media libary upload button.</p>
+</div>
+          </div>
+        </article>
+        <footer>Copyright of TheAppBuilder 2018</footer>
+      </div>
+  </body>
+</html>

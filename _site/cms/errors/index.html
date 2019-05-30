@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google-site-verification" content="prSAh6gEAIltr7n1XBk4OwwhBeOy6sHvXdGvNZaT8Pc" />
+
+  <link rel="stylesheet" href="https://use.typekit.net/ruc6lvt.css">
+
+  <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <title>Errors & Warnings | TheAppBuilder Pattern Library</title>
+  <meta name="description" content="=TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+">
+  <link rel="stylesheet" href="/dist/aos.css" />
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="canonical" href="http://localhost:4000/cms/errors/">
+  <link rel="alternate" type="application/atom+xml" title="TheAppBuilder Pattern Library" href="http://localhost:4000/feed.xml" />
+
+  <meta property="og:title" content="Pattern Library | TheAppBuilder" />
+  <meta property="og:description" content="TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+" />
+  <meta property="og:url" content="http://theappbuilder.com" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Pattern Library | TheAppBuilder" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image:src" content="" />
+  <meta name="twitter:url" content="https://melissakeizer.github.io/tab-pattern-library/" />
+  <meta name="twitter:title" content="Pattern Library | TheAppBuilder" />
+  <meta name="twitter:description" content="TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+" />
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/js/all.js"></script>
+    <link rel=icon href="/assets/images/favicon.ico" >
+
+</head>
+
+  <body>
+    <nav class="navigation__primary">
+	<div class="container">
+		<a href="/" class="logo logo--main"><img src="/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
+		  <a href="#" id="navigation__mobile__icon" class="hamburgerMenu"><img src="/assets/images/base/burger-menu.svg" alt="Open Menu" /img></a>
+	    <ul class="navigation__primary__list">
+	      <li  class="platform"><a href="/cms/" class="active" >Content Management System</a></li>
+	      <li class="platform"><a href="/native/" >Mobile Apps</a></li>
+	      <li class="platform"><a href="/webapp/" >Webapp</a></li>
+          <li class="platform"><a href="/history/" >Revision History</a></li>
+	    </ul>
+	</div>
+</nav>
+
+    <nav class="navigation__secondary">
+    <ul class="navigation__secondary__list">
+      <li><a href="/mobile/"  >Introduction</a></li>
+      <li><a href="/mobile/typography/"  >Typography</a></li>
+
+</nav>
+
+      <div class="main" id="page--cms-errors">
+        <article class="container">
+          <nav class="navigation__secondary">
+    <ul class="navigation__secondary__list">
+      <li><a href="/cms/"  >Introduction</a></li>
+  		<li><a href="/cms/typography/"  >Typography</a></li>
+  		<li><a href="/cms/buttons/"  >Buttons &amp; Links</a></li>
+      <li><a href="/cms/tags/"  >Tags</a></li>
+      <li><a href="/cms/colours/"  >Colour Palette</a></li>
+  		<li><a href="/cms/forms/"  >Forms</a></li>
+      <li><a href="/cms/errors/" class="active" >Errors &amp; Warnings</a></li>
+  		<li><a href="/cms/tables/"  >Using Tables</a></li>
+  		<!-- <li><a href="/cms/search/"  >Search</a></li> -->
+  		<li><a href="/cms/page/"  >Styling a Page</a></li>
+        <li><a href="/cms/panels/"  >Panels</a></li>
+  		<li><a href="/cms/modals/"  >Modals</a></li>
+        <li><a href="/cms/media-modals/"  >Media Modals</a></li>
+        <li><a href="/cms/icons/"  >Icons &amp; Illustrations</a></li>
+        <li><a href="/cms/widgets/"  >Widgets</a></li>
+        <li><a href="/cms/tooltips/"  >Tooltips</a></li>
+    </ul>
+</nav>
+
+          <div class="main__content">
+            <h1>Errors & Warnings</h1>
+            <p>The placement of error messages or warnings is dependant on the context. For example, in some cases a warning will show at the top of a page, however error messages often appear directly underneath an input field.</p>
+
+<h2>Text input or text area errors</h2>
+<p>Generally error messages will appear directly under a text input and the border of the input will also be red to highlight the error. No warning icon is shown. </p>
+
+<div class="main__content__block textWidth padding__30 clearfix">
+  <div class="form-group">
+       <label for="LastName">Display Name</label>
+       <input autocomplete="off" class="warning" id="LastName" name="LastName" placeholder="Display Name" type="text" value="Ke$ha"/>
+       <p class="text--formWarning">This is not a valid display name</p>
+  </div>
+  <div class="form-group">
+       <label for="LastName">Job Role</label>
+       <input autocomplete="off" class="error" id="LastName" name="LastName" placeholder="Job Role" type="text" value=""/>
+  </div>
+</div>
+
+<p>However there are times when errors or warnings are shown above the field. For example if the field or textarea in the only data input on the page or on the modal, the warning will appear above it with the warning icon appended to the beginning of the text.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="/assets/images/cms/errors/errors-on-modal.jpg" alt="Error message showing above field in modal" /img>
+	<p class="caption">Error message showing above field in modal</p>
+</div>
+
+<h2>Page warning</h2>
+<p>If a warning relates to an entire section, for example, when an admin can changes the user groups a user belongs to but the user is not currently active, this shows as a page warning. A warning message will show at the top of the page content and will be red with a red warning icon appended to the beginning of the text.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="/assets/images/cms/errors/warning-on-user-page.jpg" alt="Warning message at the top of the page" /img>
+	<p class="caption">A issue affecting the whole section is indicated by a warning message shown at the top of the page</p>
+</div>
+
+<h2>Banner Error's</h2>
+<p>Coming soon</p>
+
+          </div>
+        </article>
+        <footer>Copyright of TheAppBuilder 2018</footer>
+      </div>
+  </body>
+</html>

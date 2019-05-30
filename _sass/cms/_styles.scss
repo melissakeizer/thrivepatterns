@@ -1,0 +1,1226 @@
+/* CMS Styles
+------------------------------------------------------------------ */
+
+.text--pageTitlePrimary {
+    @include latoRegular;
+    font-size: 27px;
+    color: $cmsGrey;
+    letter-spacing: -0.5px;
+    text-transform: none;
+}
+
+.text--pageTitleSecondary {
+    @include latoSemibold;
+    font-size: 18px;
+    color: $cmsGrey;
+    letter-spacing: -0.5px;
+    text-transform: none;
+}
+
+.text--pageParagraph {
+    @include latoRegular;
+    font-size: 15px;
+    color: $cmsGrey;
+    letter-spacing: -0.3px;
+    text-transform: none;
+}
+
+.text--pageMicro {
+    @include latoRegular;
+    font-size: 11px;
+    color: $cmsGrey;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.text--pageParagraphWarning {
+    @include latoRegular;
+    font-size: 15px;
+    color: $red;
+    letter-spacing: -0.3px;
+    text-transform: none;
+    background-image: url('../assets/images/no-connection.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.text--formWarning {
+    @include latoRegular;
+    font-size: 13px;
+    color: $red;
+    letter-spacing: -0.3px;
+    text-transform: none;
+    padding-bottom: 0;
+}
+
+.text--link {
+    @include latoRegular;
+    font-size: 15px;
+    color: $cmsLink;
+    letter-spacing: 0;
+    padding-bottom: 1px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a.text--link--micro {
+    @include latoRegular;
+    font-size: 13px;
+    color: $cmsLink;
+    letter-spacing: -0.3px;
+    text-transform: none;
+    background-image: url('../assets/images/eye.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 17px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.text--label {
+    @include latoBold;
+    font-size: 12px;
+    color: #657D98;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.text--contentLabel {
+    @include latoSemibold;
+    font-size: 15px;
+    color: $cmsGrey;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    
+}
+.text--placeholder {
+    @include latoRegular;
+    font-size: 16px;
+    color: $cmsPlaceholder;
+    letter-spacing: -0.3px;
+    text-decoration: none;
+    
+}
+
+
+.text--buttondark {
+    @include latoBold;
+    font-size: 14px;
+    color: #657D98;
+}
+
+.text--buttonlight {
+    @include latoBold;
+    font-size: 14px;
+    color: #fff;
+    background: #D2D9E1;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    padding-left: 10px;
+}
+
+button {
+    @include fadeAnimation;
+    @include latoSemibold;
+    font-size: 15px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 15px 15px 0;
+}
+
+.button--primary {
+    color: $white;
+    background: $buttonPrimary;
+    border: $buttonPrimary;
+    &:hover {
+    background: darken($buttonPrimary, 5%);
+    }
+}
+
+.button--primary--tooltip {
+    color: $white;
+    background: $buttonSecondaryText;
+    border: $buttonSecondaryText;
+    &:hover {
+    background: darken($buttonSecondaryText, 5%);
+    }
+   text-align: center;
+    margin-left: 10%;
+    
+}
+
+.button--widget {
+    @include fadeAnimation;
+    @include latoSemibold;
+    border-radius: 5px;
+    padding: 0;
+    width: 63px;
+    height: 63px;
+    background: $white;
+    border: 1px solid $buttonSecondary;
+    &:hover:not(.active) {
+        webkit-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+        moz-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+        box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+    }
+    &:active {
+        background: darken($buttonWidget, 5%);
+    }
+}
+
+
+.main__content .button--widget--content img {
+    width: 100%;
+}
+
+.button--widget--content img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.main__content .button--widget--control img {
+    width: 100%;
+    max-height: 16px;
+    max-width: 16px;
+}
+.button--widget--control {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $buttonSecondary;
+    &:hover:not(.active) {
+    webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+    moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    }
+    &:active {
+        background: darken($buttonWidget, 5%);
+    }
+}
+.bin {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $buttonSecondary;
+    &:hover:not(.active) {
+    webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+    moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    }
+    &:active {
+        background: darken($buttonWidget, 5%);
+    }
+}
+
+.bin img {
+    
+    max-width: 25px;
+}
+.button--upload {
+    width: 230px;
+    height: 155px;
+    border: 1px solid $buttonSecondary;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align:top;
+    &:hover:not(.active) {
+        moz-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+        box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+    }
+    &:active {
+        background: darken($buttonWidget, 5%);
+    }
+}
+.button--upload img {
+    max-height: 74px;
+    max-width: 74px;
+}
+
+.button--text {
+    font-size: 11px;
+    color: $cmsLink;
+    margin-top: 2px;
+}
+
+.button--drag {
+    border: 1px dashed
+    $buttonSecondary;
+}
+
+.button--greytxt {
+   color: $cmsGrey;
+}
+
+.button--link2 {
+    color: $cmsLink;
+    &:hover {
+        text-decoration: underline;
+    }
+    
+}
+.button--secondary {
+    color: $buttonSecondaryText;
+    background: $white;
+    border: 1px solid $buttonSecondary;
+    &:hover {
+        background: darken($white, 3%);
+    }
+    &:active {}
+}
+
+.button--mini {
+    font-size: 13px;
+    padding: 6px 12px;
+}
+
+.button--disabled {
+    background: $buttonDisabled;
+    cursor: not-allowed;
+    &:hover {
+        background: $buttonDisabled;
+    }
+}
+
+.tag {
+    font-size: 13px;
+    display: inline-block;
+    margin: 0 4px 8px;
+    color: $cmsLink;
+    background: lighten($cmsLink, 60%);
+    border-radius: 5px;
+    border: solid 1px $cmsLink;
+    padding: 6px 12px;
+}
+
+.tag--negative {
+    color: $red;
+    background: lighten($red, 46%);
+    border: solid 1px $red;
+}
+
+a.remove {
+    background-image: url('../assets/images/remove-blue.svg');
+    background-position: 10px 6px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+
+a.remove--negative {
+    background-image: url('../assets/images/remove-red.svg');
+}
+
+label {
+    @include latoBold;
+    font-size: 12px;
+    color: $buttonSecondaryText;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    padding-bottom: 3px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+textarea,
+select {
+    height: 34px;
+    padding: 6px 8px;
+    vertical-align: middle;
+    width: 250px;
+    color: $cmsGrey;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    &.warning {
+        border-color: $red;
+    }
+}
+
+/*---- Placeholder -----*/
+
+.form-group ::-webkit-input-placeholder {
+
+    color: $cmsPlaceholder;
+}
+
+
+.form-group ::-moz-placeholder {
+
+    color: $cmsPlaceholder;
+}
+
+
+.form-group :-ms-input-placeholder {
+
+    color: $cmsPlaceholder;
+}
+
+.form-group :-moz-placeholder {
+    color: $cmsPlaceholder;
+}
+
+
+/* Forms Section
+-----------------------------------------------------------------------------------------------------*/
+
+.form-group {
+    display: inline-block;
+    vertical-align: top;
+    p {
+        width: 100%;
+    }
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.form-group input {
+
+    color: $cmsGrey;
+
+}
+
+.form--dataFields {
+    display: inline-block;
+    padding-right: 70px;
+}
+
+.form--dataFieldsHeading {
+    padding-bottom: 15px;
+    color: $dataFieldsHeading;
+    font-weight: 800;
+
+}
+
+.form--dataFieldsReset {
+    color: $blue;
+    font-size: 16px;
+}
+
+.form--dataFieldsCheckbox input {
+    margin-right: 6px;
+}
+
+.form--dataFields__username {
+    color: #6A6F75;
+
+}
+
+.form--dataFieldsCheckbox input:checked {
+    margin-right: 6px;
+}
+
+.form--dropdown select {
+    background-color: #fff;
+    color: #6A6F75;
+    width: 200px;
+}
+
+/*Tables Section
+-----------------------------------------------------------------------------------------------------*/
+
+table {
+    margin: 0 auto;
+}
+
+.table-allUsers table {
+    border-collapse: collapse;
+}
+
+.table-columnOne {
+    color: #067BBE;
+}
+
+.table-columnFive {
+    width: 50px;
+    padding-left: 15px;
+}
+
+.table-RedRemove:hover {
+    cursor: pointer;
+}
+
+.table-RowOne {
+    cursor: pointer;
+}
+
+.table-allUsers tr {
+    font-size: 14px;
+    color: #707070;
+}
+
+.table-allUsers tr:nth-child(odd) {
+    background-color: #F7F7F7;
+}
+
+.table-allUsers th {
+    background-color: #E6F2FA;
+    color: #067BBE;
+    text-align: left;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.table-allUsers td,
+th {
+    padding: 10px 15px;
+}
+
+.table-allUsers th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*-----------------------------------------Revision History table-----------------------------------------------------------------*/
+
+table {
+    margin: 0 auto;
+}
+
+.table-allUsers table {
+    border-collapse: collapse;
+}
+
+.table-columnOne {
+    color: #707070;
+}
+
+//.table-columnFive {
+  //  width: 50px;
+    //padding-left: 0px;
+    //color: #a73a5e;
+//}
+
+.table-RedRemove:hover {
+    cursor: pointer;
+}
+
+.table-RowOne {
+    cursor: pointer;
+}
+
+.table-allUsers1 tr {
+    font-size: 14px;
+    color: #707070;
+}
+
+.table-allUsers1 tr:nth-child(odd) {
+    background-color: #F7F7F7;
+}
+
+.table-allUsers1 th {
+    background-color: #a73a5e;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.table-allUsers1 td,
+th {
+    padding: 10px 17px 10px 10px;
+    
+}
+
+.table-allUsers1 th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links {
+    color: $cmsLink;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.name {
+    font-weight: 800; 
+}
+/*Search Users
+-----------------------------------------------------------------------------------------------------*/
+
+.searchUsers__block {
+    vertical-align: middle;
+    background: #F7F7F7;
+    border: 1px solid #E1E1E1;
+    position: relative;
+    margin: 0 auto;
+    width: 745px;
+}
+
+.searchUsers--label {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    text-transform: none;
+    font-weight: 400;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #6A6F75;
+    letter-spacing: 0;
+}
+
+input[type="text"].searchUsers--searchBox {
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    width: 528px;
+    height: 38px;
+    border-radius: 0;
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: rgba(112, 112, 112, 0.57);
+    letter-spacing: 0;
+    line-height: 27px;
+    outline: 0;
+}
+
+.searchUsers--closeIcon {
+    position: relative;
+    right: 32px;
+    padding: 0;
+    vertical-align: middle;
+    color: #E1E1E1;
+    outline: 0;
+}
+
+.searchUsers--submitButton {
+    border-radius: 4px;
+    border: none;
+    vertical-align: middle;
+    padding: 6px 6px;
+    outline: 0;
+    width: 56px;
+    position: relative;
+    right: 20px;
+    @include buttonPrimaryHover;
+    font-family: Lato-Bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.searchUsers--resetButton {
+    border-radius: 4px;
+    vertical-align: middle;
+    padding: 6px 6px;
+    width: 56px;
+    outline: 0;
+    position: relative;
+    right: 20px;
+    font-family: Lato-Bold;
+    font-size: 13px;
+    color: #657D98;
+    letter-spacing: 0;
+
+
+    color: $buttonSecondaryText;
+    background: $white;
+    border: 1px solid $buttonSecondary;
+    &:hover {
+        background: darken($white, 3%);
+    }
+}
+
+
+/*Search and Select Users
+-----------------------------------------------------------------------------------------------------*/
+
+.searchSelectGroups--block input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    height: 40px;
+    border-radius: 4px 0 0 4px;
+    outline: 0;
+}
+
+.searchSelectGroups--block input[type="text"]:not([value=""]) + button {
+    @include buttonPrimaryHover;
+}
+
+.searchSelectGroups--addButton {
+    height: 40px;
+    padding: 4px;
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 10%;
+    background: #D2D9E1;
+    color: #ffffff;
+    position: relative;
+    right: 5px;
+    outline: 0;
+}
+
+
+/*Iconography
+-----------------------------------------------------------------------------------------------------*/
+
+.iconography--block tr {
+    height: 60px;
+}
+
+.iconography--block td:nth-child(odd) {
+    width: 70px;
+    vertical-align: middle;
+}
+
+.iconograhy--icons {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.greenTick {
+    height: 13px;
+}
+
+.deleteTrashCan {
+    height: 18px;
+}
+
+.eyeIcon {
+    height: 13px;
+}
+
+.userSearchClearIcon {
+    height: 13px;
+}
+
+.clearSearch {
+    height: 12px;
+}
+
+.locked {
+    height: 18px;
+}
+
+.warningIcon {
+    height: 14px;
+}
+
+.remove-blue {
+    height: 12px;
+
+}
+
+.alerts {
+    height: 24px;
+}
+
+.iconography--block tr {
+    height: 60px;
+}
+
+.iconography--block--placeholder td:nth-child(odd) {
+    width: 100px;;
+    padding: 10px 20px 10px 0;
+}
+
+.iconography--block--placeholder img {
+    margin-right: -15px;
+    opacity: 0.75;
+}
+.placeholder {
+    height: 60px;
+   
+}
+
+.wide {
+    height: 50px;
+}
+
+.wide-txt {
+    margin-left: 20px;
+}
+/*---------- Placeholder icon gallery-------------------------------------------------------------------------------*/
+
+.placeholder-gallery {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(7, minmax(0px, 1fr));
+    grid-auto-rows: 70px;
+    margin-top: 20px;
+    width: calc(20px;);
+    max-width: 595px;
+    margin: auto;
+}
+
+.icon {
+    img {
+        width: 40px;
+        height: 60px;
+        object-fit: contain;
+        opacity: .75;
+    }
+}
+
+.icon-wide {
+    img {
+        width: 60px;
+        height: 50px;
+        object-fit: contain;
+        opacity: .75;
+        margin-top: 10px;
+    }
+}
+
+.icon-label {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.space {
+    padding-top: 30px;
+}
+
+.existing {
+    padding-top: 25px;
+}
+/*-----illustration------------*/
+.illustration-gallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-columns: 100px;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  max-width: 595px; }
+.illustration {
+    img {
+        width: 100%;
+        //width: 150px;
+        object-fit: contain;
+    }
+}
+
+.illustration {
+    img {
+        max-width: 150px;
+    }
+}
+
+.icon--colours  {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+    grid-auto-rows: 100px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.icon-colour {
+    img {
+        max-width: 200px;
+       max-height: 200px;
+        object-fit: cover;
+        opacity:  1;
+    }
+}
+.line--6 {
+    max-width: 250px;
+}
+.icon-colour {
+    text-align: center;
+    opacity: 1;
+}
+
+.line {
+    padding-top: 50px;
+
+}
+
+.line img {
+    max-width: 250px;
+}
+
+.missing--asset img {
+    opacity: .75;
+}
+
+
+.bad-gallery  {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-columns: 100px;
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  max-width: 600px; 
+}
+
+.illustration {
+    img {
+        width: 100%;
+        //width: 150px;
+        object-fit: contain;
+    }
+}
+/*----------Navigation
+-----------------------------------------------------------------------------------------------------*/
+
+.navigation__list {
+    border-top: 1px solid #D2D9E1;
+    border-bottom: 1px solid #D2D9E1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.navigation__list li {
+    display: inline;
+    margin-right: 26px;
+    color: $tableEmailText;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.navigation__listItem:focus {
+    font-weight: 700;
+    outline: 0;
+    height: 500px;
+    border-bottom: 2px solid #067BBE;
+    padding-bottom: 9px;
+}
+
+
+.navigation__sidebar {
+    border: 1px solid #F3F3F3;
+    border-radius: 11px;
+    width: 140px;
+    background-color: #fff;
+    box-shadow: 0 5px 0 #ddd;
+    @include sidebarPrimary;
+
+}
+
+.navigation__sidebar li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E7E7E7;
+    text-align: left;
+    color: $tableEmailText;
+    padding-left: 25px;
+
+}
+
+.navigation__sidebar li a:last-child {
+    border-bottom: 0px solid white;
+    border-radius: 0 0 11px 11px;
+
+}
+
+.navigation__sidebar li:first-child {
+    border-radius: 11px 11px 0 0;
+}
+
+
+.navigation__sidebar a:focus {
+    font-weight: 700;
+    outline: 0; // background-color:rgba(62, 173, 222, 0.1);
+    // working on trying to get the focus background colour to appear;
+}
+
+
+.navigation__sidebar--title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E7E7E7;
+    @include sidebarTitle;
+    border: 1px solid #F3F3F3;
+    border-radius: 11px;
+    width: 140px;
+    background-color: #fff;
+    box-shadow: 0 5px 0 #ddd;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+
+
+
+/*Standard Modal
+-----------------------------------------------------------------------------------------------------*/
+
+.modal__container {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+    height: 455px;
+    width: 617px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+.modal__scrollbar::-webkit-scrollbar {
+    width: 7px;
+    background-color: 0;
+
+}
+
+.modal__scrollbar::-webkit-scrollbar-thumb {
+    background-color: #D2D9E1;
+    border-radius: 10px;
+}
+
+.modal__container--header {
+    margin: 0 auto;
+    width: 90%;
+    font-weight: 800;
+    font-family: Lato;
+    font-size: 18px;
+    color: #6A6F75;
+    letter-spacing: -0.36px;
+    height: 14%;
+
+}
+
+.modal__container--title {
+    display: inline-block;
+    width: 480px;
+    padding-top: 20px;
+
+
+}
+
+.modal__button--close {
+    padding: 0 2px;
+    margin: 0;
+    font-size: 20px;
+    color: #9A9FA5;
+    float: right;
+    position: relative;
+    left: 18px;
+    top: 4px;
+}
+
+
+
+.modal__table td:nth-child(even) {
+    text-align: right;
+    color: #067BBE;
+    font-size: 14px;
+}
+
+.modal__table td:nth-child(odd) {
+    color: #6A6F75;
+    font-size: 14px;
+}
+
+.modal__table td {
+    position: relative;
+}
+
+.modal__table--container {
+    height: 71%;
+    width: 92%;
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+.modal__tick {
+    position: absolute;
+    left: 100px;
+    bottom: 13px;
+
+}
+
+.modal__table {
+    width: 100%;
+
+}
+
+.modal__container--footer {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #ECECEC;
+    padding-left: 16px;
+
+}
+
+.modal__container--remove {
+    
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.modal__container hr {
+    opacity: 0.1;
+    width: 95%;
+
+}
+
+.modal__container--footer button {
+    padding: 8px 15px;
+
+}
+
+.cms-modal__container {
+    background: #FFFFFF;
+    background-image: url(../assets/images/webapp/modal-corner-x.svg);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 5px;
+   // background-attachment: fixed;
+    background-position: right 20px top 20px;
+    box-shadow: 0 1px 10px 4px rgba(0,0,0,0.13);
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+.cms-modal__container p {
+
+    padding: 0;
+
+}
+
+.cms-modal__container--delete img {
+    max-height: 150px;
+    padding-bottom: 20px;
+
+}
+.cms-modal__container--delete {
+    height: auto;
+    width: 75%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button--red {
+    background-color: $red;
+    border: $red;
+    &:hover {
+        background: darken($red, 5%);
+    }
+}
+
+.delete--modal {
+    padding-top: 40px;
+}
+/*Mini Modal
+-----------------------------------------------------------------------------------------------------*/
+
+.miniModal__container {
+    height: 275px;
+    width: 446px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.miniModal__header {
+    font-weight: 500;
+    font-family: Lato;
+    font-size: 18px;
+    color: #6A6F75;
+    letter-spacing: -0.36px;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 15px;
+}
+
+.miniModal__header button {
+    float: right;
+    padding: 0 2px;
+    margin: 0;
+    font-size: 20px;
+    color: #9A9FA5;
+}
+
+.miniModal__header--title {
+    float: left;
+    width: 85%;
+}
+
+
+.testfix::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.miniModal__contentArea {
+    height: 60%;
+}
+
+.miniModal__contentArea ul {
+    width: 100%;
+    padding-top: 20px;
+    @include latoRegular;
+    font-size: 15px;
+    color: #707070;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.miniModal__contentArea--boldData {
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 15px;
+    color: #707070;
+    letter-spacing: 0;
+    line-height: 27px;
+}
+
+.miniModal__contentArea--plus {
+    color: #6EB81D;
+    font-weight: 800;
+}
+
+.miniModal__contentArea--mark {
+    color: #D52521;
+}
+
+
+/*-------------widgets---------------------*/
+
+.widget-gallery img {
+    height: 100px;
+    
+}
+
+.modular-page img {
+    height: 150px;
+}
+
+.image-widget img {
+    height: 300px;
+}
+
+.upload-widget img {
+    height: 150px;
+}
+
+/*-------------panels---------------------*/
+.panel-gallery {
+    width: 65%;
+}
+.panel-gallery img {
+    width: 300px;
+    box-shadow: none;
+    
+}
+
+/*------------------tooltips--------------*/
+
+.tooltip-link img {
+    max-width: 15%;
+}

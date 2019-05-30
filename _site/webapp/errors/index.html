@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google-site-verification" content="prSAh6gEAIltr7n1XBk4OwwhBeOy6sHvXdGvNZaT8Pc" />
+
+  <link rel="stylesheet" href="https://use.typekit.net/ruc6lvt.css">
+
+  <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <title>Error Handling | TheAppBuilder Pattern Library</title>
+  <meta name="description" content="=TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+">
+  <link rel="stylesheet" href="/dist/aos.css" />
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="canonical" href="http://localhost:4000/webapp/errors/">
+  <link rel="alternate" type="application/atom+xml" title="TheAppBuilder Pattern Library" href="http://localhost:4000/feed.xml" />
+
+  <meta property="og:title" content="Pattern Library | TheAppBuilder" />
+  <meta property="og:description" content="TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+" />
+  <meta property="og:url" content="http://theappbuilder.com" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="Pattern Library | TheAppBuilder" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image:src" content="" />
+  <meta name="twitter:url" content="https://melissakeizer.github.io/tab-pattern-library/" />
+  <meta name="twitter:title" content="Pattern Library | TheAppBuilder" />
+  <meta name="twitter:description" content="TheAppBuilder's centralised hub for showcasing our design rules, principles, and frontend components.
+" />
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/js/all.js"></script>
+    <link rel=icon href="/assets/images/favicon.ico" >
+
+</head>
+
+  <body>
+    <nav class="navigation__primary">
+	<div class="container">
+		<a href="/" class="logo logo--main"><img src="/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
+		  <a href="#" id="navigation__mobile__icon" class="hamburgerMenu"><img src="/assets/images/base/burger-menu.svg" alt="Open Menu" /img></a>
+	    <ul class="navigation__primary__list">
+	      <li  class="platform"><a href="/cms/"  >Content Management System</a></li>
+	      <li class="platform"><a href="/native/" >Mobile Apps</a></li>
+	      <li class="platform"><a href="/webapp/" class="active">Webapp</a></li>
+          <li class="platform"><a href="/history/" >Revision History</a></li>
+	    </ul>
+	</div>
+</nav>
+
+    <nav class="navigation__mobile">
+	<a href="#" id="menu__close"></a>
+	<a href="/" class="logo logo--main logo--mobileMenu"><img src="/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
+    <ul class="navigation__mobile__list">
+      <li  class="platform"><a href="/cms/"  >Content Management System</a></li>
+			<li><a href="/cms/typography/"  >Typography</a></li>
+  		<li><a href="/cms/buttons/"  >Buttons &amp; Links</a></li>
+      <li><a href="/cms/tags/"  >Tags</a></li>
+      <li><a href="/cms/colours/"  >Colour Palette</a></li>
+  		<li><a href="/cms/forms/"  >Forms</a></li>
+      <li><a href="/cms/errors/"  >Errors &amp; Warnings</a></li>
+  		<li><a href="/cms/tables/"  >Using Tables</a></li>
+  		<li><a href="/cms/page/"  >Styling a Page</a></li>
+        <li><a href="/cms/panels/"  >Panels</a></li>
+  		<li><a href="/cms/modals/"  >Modals</a></li>
+        <li><a href="/cms/media-modals/"  >Media Modals</a></li>
+        <li><a href="/cms/icons/"  >Icons</a></li>
+        <li><a href="/cms/widgets/"  >Widgets</a></li>
+
+      <li class="platform"><a href="/webapp/" >Webapp</a></li>
+			<li><a href="/webapp/"  >Introduction</a></li>
+			<li><a href="/webapp/typography/"  >Typography</a></li>
+			<li><a href="/webapp/buttons/"  >Buttons &amp; Links</a></li>
+			<li><a href="/webapp/colours/"  >Colour Palette</a></li>
+			<li><a href="/webapp/modals/"  >Modals</a></li>
+			<li><a href="/webapp/forms/"  >Forms</a></li>
+			<li><a href="/webapp/list-cards/"  >List Cards</a></li>
+			<li><a href="/webapp/navigation/"  >Navigation</a></li>
+			<li><a href="/webapp/icons/"  >Icons</a></li>
+
+
+			<li class="platform"><a href="/native/" >Mobile Apps</a></li>
+      <li><a href="/native/"  >Introduction</a></li>
+			<li><a href="/native/typography/"  >Typography</a></li>
+			<li><a href="/native/buttons/"  >Buttons &amp; Links</a></li>
+			<li><a href="/native/colours/"  >Colour Palette</a></li>
+			<li><a href="/native/navigation/"  >Navigation</a></li>
+			<li><a href="/native/forms/"  >Forms</a></li>
+			<li><a href="/native/modals/"  >Native Modals</a></li>
+			<li><a href="/native/search/"  >Search</a></li>
+		 <li><a href="/native/list-layouts/"  >List Layouts</a></li>
+			<li><a href="/native/icons/"  >Icons</a></li>
+
+        <li  class="platform"><a href="/history/"  >Revision History</a></li>
+
+		 </ul>
+
+</nav>
+
+      <div class="main" id="page--webapp-errors">
+        <article class="container">
+          <nav class="navigation__secondary">
+    <ul class="navigation__secondary__list">
+      <li><a href="/webapp/"  >Introduction</a></li>
+  		<li><a href="/webapp/typography/"  >Typography</a></li>
+  		<li><a href="/webapp/buttons/"  >Buttons &amp; Links</a></li>
+      <li><a href="/webapp/colours/"  >Colour Palette</a></li>
+      <li><a href="/webapp/modals/"  >Modals</a></li>
+      <li><a href="/webapp/forms/"  >Forms</a></li>
+      <li><a href="/webapp/errors/" class="active" >Error Handling</a></li>
+      <!-- <li><a href="/webapp/social-components/"  >Social Components</a></li> -->
+      <li><a href="/webapp/list-cards/"  >List Cards</a></li>
+      <li><a href="/webapp/page-layouts/"  >Page Layouts</a></li>
+      <li><a href="/webapp/navigation/"  >Navigation</a></li>
+      <li><a href="/webapp/icons/"  >Icons</a></li>
+    </ul>
+</nav>
+
+          <div class="main__content">
+            <h1>Error Handling</h1>
+            <p>Error alerts are used to show users errors they have made when filling out forms in the app. </p>
+
+<h2>Error Alert Placement & Design</h2>
+
+<p>If the user makes an error when completing a form or their submission is not accepted, the fields containing the errors are highlighted. The border at the bottom of the field should be red and the error message should be presented underneath the field.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+<img src="/assets/images/webapp/examples/register-password-error.jpg" alt="login page" /img>
+<p class="caption">The relevant fields that caused the error are highlighted</p>
+</div>
+
+<p>Error messages should be succinct and helpful to the end user, as they should quickly describe the issue so the user knows how to eradicate it. For example, if the user chooses a new password that does not comply with the password rules, instead of seeing the error message “This password is incorrect” they should be told what they need to include, e.g. “Password should contain an uppercase letter.”</p>
+
+<div class="main__content__block textWidth padding__30">
+<div class="webapp-form-group webapp-form-group--header webapp-form-group--header--error">
+ <label for="LastName">Password</label>
+ <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Password" type="password" value=""/><p class="text-form--error">Password is incorrect</p>
+</div>
+</div>
+
+<p>There are some cases in which the error message will be shown above the form group and will not highlight the particular inputs that have caused the issue. For example, we show the error message "Your username or password is incorrect" in this style as it is against our security protocol to indicate which of these fields is incorrect.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+<img src="/assets/images/webapp/examples/login-incorrect-credentials.jpg" alt="login page" /img>
+<p class="caption">Error message shown above form group in some cases</p>
+</div>
+
+<h2>Error Behaviour</h2>
+
+<p>The following steps out the behaviour of the error alert and button states as the user interacts with forms in the webapp.</p>
+  <h3>Error messages will persist</h3>
+  <p>This is so users can refer to the error at anytime. For example, if a user chooses a new password that does not fit the requirements, they will see an error upon submitting the form. This error will stay on the screen as they fill out the form again, so that they can refer to the guidance the error provides.</p>
+  <h3>Buttons will always be active</h3>
+  <p>Unlike the mobile client, the webapp has more screen space to highlight specific form fulfilment requirements so onscreen prompts are easier to manage within the display to the user. </p>
+  <h3>The button should remain active after form submission</h3>
+  <p>Similarly to the mobile behaviour, if the error is a problem with the server for example and the user has entered 'correct data', the user doesn't/shouldn't have to take corrective action within the fields if the issue is not with their data</p>
+</ul>
+
+          </div>
+        </article>
+        <footer>Copyright of TheAppBuilder 2018</footer>
+      </div>
+  </body>
+</html>

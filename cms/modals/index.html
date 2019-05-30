@@ -1,0 +1,235 @@
+---
+layout: default
+platform: cms
+page: cms-modals
+selected: cms-modals
+title: Modals
+---
+
+<p>Modals are used in the CMS in a few use cases, including but not limited to; </p>
+<ul class="main__content__ul">
+  <li>Selecting users to be added to the audience of a piece of content</li>
+  <li>Adding watchers to a piece of content</li>
+  <li>Selecting users groups for a channel or user to have access to</li>
+  <li>Selecting users to add to a channel or user group</li>
+  <li>Bulk adding users to a user group or channel</li>
+</ul>
+
+<h2>Standard &amp; Mini Modal</h2>
+<p>There are 2 sizes of modals used, the standard modal and mini modal. The main difference between them is their size. </p>
+
+
+ <!--[Element Standard modal]-->
+
+<div class="main__content__block">
+  <div class="modal__container clear">
+      <div class="modal__container--header clear">
+        <h4 class="modal__container--title"> Add Groups to App</h4>
+        <button class="modal__button--close">x</button>
+      </div>
+      <div class="modal__table--container modal__scrollbar">
+        	<table class="table-allUsers modal__table">
+        		<tbody>
+        		<tr class="table-RowOne">
+        				<th>
+        				User Group Name
+        				</th>
+        				<th>
+        				</th>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        			     Leadership Team
+        			</td>
+        			<td>
+        					<img class="iconograhy--icons greenTick modal__tick" src="/assets/images/cms/green-tick.svg"/>
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				Design Team
+        			</td>
+        			<td>
+        					Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				Management Group
+        			</td>
+        			<td>
+        				Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        			  Sales Team
+        			</td>
+        			<td>
+        					Add Group
+        			</td>
+            </tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				HR
+        			</td>
+        			<td>
+        				Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				Regional Team
+        			</td>
+        			<td>
+        					<img class="iconograhy--icons greenTick modal__tick" src="{{ site.baseurl }}/assets/images/cms/green-tick.svg"/>
+        			</td>
+        		</tr>
+            <tr>
+        			<td class="table-columnOne">
+        				Design Team
+        			</td>
+        			<td>
+        					Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				Management Group
+        			</td>
+        			<td>
+        				Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        			  Sales Team
+        			</td>
+        			<td>
+        					Add Group
+        			</td>
+            </tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				HR
+        			</td>
+        			<td>
+        				Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				Regional Team
+        			</td>
+        			<td>
+        					<img class="iconograhy--icons greenTick modal__tick" src="{{ site.baseurl }}/assets/images/cms/green-tick.svg"/>
+        			</td>
+        		</tr>
+            <tr>
+        			<td class="table-columnOne">
+        				Design Team
+        			</td>
+        			<td>
+        					Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				Management Group
+        			</td>
+        			<td>
+        				Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        			  Sales Team
+        			</td>
+        			<td>
+        					Add Group
+        			</td>
+            </tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				HR
+        			</td>
+        			<td>
+        				Add Group
+        			</td>
+        		</tr>
+        		<tr>
+        			<td class="table-columnOne">
+        				Regional Team
+        			</td>
+        			<td>
+        					<img class="iconograhy--icons greenTick modal__tick" src="{{ site.baseurl }}/assets/images/cms/green-tick.svg"/>
+        			</td>
+        		</tr>
+        		</tbody>
+        </table>
+      </div>
+      <div class="modal__container--footer clear">
+        <button class="button--primary">Add Groups</button>
+      	<button class="button--secondary">Cancel</button>
+      </div>
+  </div>
+</div>
+
+<!-- [Element mini modal] -->
+
+
+<div class="main__content__block">
+  <div class="miniModal__container">
+    <div class="miniModal__header testfix">
+      <h4 class="miniModal__header--title">Bulk add users to user group</h4>
+      <button class="miniModal__header--close">x</button>
+    </div>
+    <div class="miniModal__contentArea">
+      <ul>
+        <li><span class="miniModal__contentArea--boldData">150</span> total users</li>
+        <li><span class="miniModal__contentArea--boldData">100</span> users already in user group</li>
+        <li><span class="miniModal__contentArea--plus"> + </span> <span class="miniModal__contentArea--boldData">40</span> new users added to group</li>
+        <li> <span class="miniModal__contentArea--mark"> ! </span> <span class="miniModal__contentArea--boldData">10</span> users unrecognised and ignored - download log file</li>
+      </ul>
+    </div>
+    <div class="miniModal__footer">
+      <button class="button--primary">Confirm and Complete</button>
+      <button class="button--secondary">Cancel</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+<p>Standard modals are 617px by 455px tall, while the mini modals are 446px by 275px. If there is a lot of content to display it should be scrollable within the modal itself. The scrollable area is the main content area beneath the top title area and button area at the bottom. Both of these strips stay in place while the user scrolls the content behind. This ensures the context of the modal is always clear (as the title can be seen) and the action buttons are always in view.  </p>
+
+<p>Both use the h2 styling on their titles, use the standard “x” close icon, a grey border under this top section, and buttons placed on the left side at the bottom of the modal. When onscreen a full-screen black overlay with 37% opacity should be placed behind the modal. </p>
+
+<h2>Buttons on Modals </h2>
+<p>There should be a primary button (for the core modal action) and secondary button (to cancel the action and close the modal) present. Note that a lone “close” button should never be displayed, users should instead use the “x” icon in the top right corner to close the modal if no cancel button is shown.</p>
+
+<!-- [IMG example of modal on a screen] -->
+
+<!------------------delete modal--------------------->
+
+<h2>Delete Modal</h2>
+<p>When an app editor clicks the delete or remove button on the CMS, they are presented with a modal to confirm deletion. It features an illustration and two primary buttons; one to confirm deletion and the other to cancel/close the modal.</p>
+
+<!------<div class="main__content__block clearfix">
+     <div class="cms-modal__container cms-modal__container--delete">
+         <img src="/assets/images/cms/new_icons/delete_modal_icon.svg">
+        <p class="cms-modal--text">Are you sure you want to remove this widget?</p>
+        <div class="modal__container--footer clear modal__container--remove">
+        <button class="button--primary button--red">Yes, Remove</button>
+      	<button class="button--secondary">No, Cancel</button>
+      </div>
+</div> 
+</div>---->
+    <p class="delete--modal">The delete modal is used throughout any instance in the CMS where delete or remove is an option.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/widgets/delete_modal_1.jpg" alt="list" /img>
+    <p class="caption">Delete modal on a modular page.</p>
+    
+</div>
