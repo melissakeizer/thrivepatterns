@@ -37,7 +37,7 @@ a{
     padding-bottom: 15px;
   color: #fff;
   font-size: 30px;
-  @include latoRegular;
+  @include halyardBook;
     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.09) 12%, rgba(0,0,0,0.76) 99%, rgba(0,0,0,0.77) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -51,7 +51,7 @@ a{
     padding-bottom: 15px;
     color: #fff;
     font-size: 22px;
-    @include latoRegular;
+    @include halyardBook;
     
     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.09) 12%, rgba(0,0,0,0.76) 99%, rgba(0,0,0,0.77) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -62,7 +62,7 @@ a{
 .webappText--heading3{
   color: $textNavy;
   font-size: 19px;
-  @include latoSemibold;
+  @include halyardSemibold;
 }
 
 /*---------- table 2 ----------------------------------*/
@@ -70,12 +70,12 @@ a{
 .nativeText--heading4 {
     color: $nativeTitleText;
     font-size: 24px;
-    @include latoSemibold;
+    @include halyardSemibold;
 }
 
 .nativeText--heading5 {
     color: #637289;
     font-size: 18px;
-    @include latoRegular;
+    @include halyardBook;
 }
 

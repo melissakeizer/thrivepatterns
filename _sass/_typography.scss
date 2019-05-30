@@ -5,7 +5,7 @@
 @import "variables";
 
 body{
-	font-family: "lato", sans-serif;
+	font-family: halyard-display, sans-serif;
 	color: $textColor;
 }
 
@@ -14,7 +14,7 @@ body{
 ------------------------------------------------------------------ */
 
 h1{
-	@include latoHeavy;
+	@include halyardSemibold;
 	font-size: 42px;
 	color: $pink;
 	line-height: 1.1em;
@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-	@include latoBold;
+	@include halyardSemibold;
 	font-size: 27px;
 	line-height: 1.2em;
 	padding-bottom: 0.7em;
@@ -30,21 +30,21 @@ h2{
 }
 
 h3{
-	@include latoBold;
+		@include halyardSemibold;
 	font-size: 22px;
 	line-height: 1.2em;
 	padding-bottom: 0.7em;
 }
 
 p{
-	@include latoRegular;
+	@include halyardBook;
 	font-size: 18px;
 	line-height: 1.4em;
 	padding-bottom: 2em;
 }
 
 .main__content__ul li{
-	@include latoRegular;
+	@include halyardBook;
 	font-size: 18px;
 	line-height: 1.4em;
 	padding-bottom: 0.5em;
@@ -65,7 +65,7 @@ p{
 ------------------------------------------------------------------ */
 
 .block__link__subtitle{
-	@include latoMedium;
+	@include halyardMedium;
 	font-size: 17px;
 	color: $purple__light;
 	display: block;
@@ -73,7 +73,7 @@ p{
 
 
 .sidebar__link--title{
-	@include latoHeavy;
+@include halyardMedium;
 	opacity: 0.5;
 	font-size: 12px;
 	color: $white;
@@ -92,7 +92,7 @@ ul.innerList{
 ------------------------------------------------------------------ */
 
 .paragraph--meta{
-	@include latoBold;
+	@include halyardMedium;
 	color: $purple__meta;
 	font-size: 11px;
     letter-spacing: 0.3px;

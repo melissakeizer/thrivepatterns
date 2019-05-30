@@ -386,43 +386,49 @@ a {
 /* Native Specific
 ------------------------------------------------------------------ */
 body {
-  font-family: "lato", sans-serif;
+  font-family: halyard-display, sans-serif;
   color: #38344A; }
 
 /* Main Text Styles
 ------------------------------------------------------------------ */
 h1 {
-  font-weight: 800;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 42px;
   color: #C1375E;
   line-height: 1.1em;
   padding-bottom: 0.8em; }
 
 h2 {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 27px;
   line-height: 1.2em;
   padding-bottom: 0.7em;
   clear: both; }
 
 h3 {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 22px;
   line-height: 1.2em;
   padding-bottom: 0.7em; }
 
 p {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 18px;
   line-height: 1.4em;
   padding-bottom: 2em; }
 
 .main__content__ul li {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 18px;
   line-height: 1.4em;
   padding-bottom: 0.5em;
@@ -437,13 +443,17 @@ p {
 /* Link Styles
 ------------------------------------------------------------------ */
 .block__link__subtitle {
+  font-family: halyard-display, sans-serif;
   font-weight: 500;
+  font-style: normal;
   font-size: 17px;
   color: #AFADBA;
   display: block; }
 
 .sidebar__link--title {
-  font-weight: 800;
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   opacity: 0.5;
   font-size: 12px;
   color: #ffffff;
@@ -457,8 +467,9 @@ ul.innerList {
 /* Other
 ------------------------------------------------------------------ */
 .paragraph--meta {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   color: #AFADBA;
   font-size: 11px;
   letter-spacing: 0.3px;
@@ -496,7 +507,9 @@ p.caption {
     display: inline-block;
     padding-left: 23px; }
     .navigation__primary__list li a {
-      font-weight: 800;
+      font-family: halyard-display, sans-serif;
+      font-weight: 600;
+      font-style: normal;
       font-size: 13px;
       text-transform: uppercase;
       color: #AFADBA;
@@ -521,8 +534,9 @@ p.caption {
     .navigation__secondary__list li.platform {
       padding: 15px 0; }
     .navigation__secondary__list li a {
-      font-weight: 400;
-      letter-spacing: 0;
+      font-family: halyard-display, sans-serif;
+      font-weight: 300;
+      font-style: normal;
       color: #38344A;
       text-decoration: none;
       font-size: 18px; }
@@ -530,8 +544,9 @@ p.caption {
         color: #C1375E; }
       .navigation__secondary__list li a.active {
         color: #C1375E;
-        font-weight: 700;
-        letter-spacing: -0.32px; }
+        font-family: halyard-display, sans-serif;
+        font-weight: 600;
+        font-style: normal; }
 
 /* Mobile Burger Menu
 ------------------------------------------------------------------ */
@@ -587,13 +602,15 @@ p.caption {
     .navigation__mobile__list li.platform {
       padding-top: 18px; }
       .navigation__mobile__list li.platform a {
-        font-weight: 700;
-        letter-spacing: -0.32px;
+        font-family: halyard-display, sans-serif;
+        font-weight: 600;
+        font-style: normal;
         letter-spacing: 0.3px;
         color: #b7b3ca; }
     .navigation__mobile__list li a {
-      font-weight: 400;
-      letter-spacing: 0;
+      font-family: halyard-display, sans-serif;
+      font-weight: 300;
+      font-style: normal;
       color: #38344A;
       text-decoration: none;
       font-size: 18px;
@@ -602,8 +619,9 @@ p.caption {
         color: #C1375E; }
       .navigation__mobile__list li a.active {
         color: #C1375E;
-        font-weight: 700;
-        letter-spacing: -0.32px; }
+        font-family: halyard-display, sans-serif;
+        font-weight: 600;
+        font-style: normal; }
       .navigation__mobile__list li a:hover {
         color: #D6BD89; }
       .navigation__mobile__list li a.active {
@@ -646,43 +664,49 @@ p.caption {
 /* Native Specific
 ------------------------------------------------------------------ */
 body {
-  font-family: "lato", sans-serif;
+  font-family: halyard-display, sans-serif;
   color: #38344A; }
 
 /* Main Text Styles
 ------------------------------------------------------------------ */
 h1 {
-  font-weight: 800;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 42px;
   color: #C1375E;
   line-height: 1.1em;
   padding-bottom: 0.8em; }
 
 h2 {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 27px;
   line-height: 1.2em;
   padding-bottom: 0.7em;
   clear: both; }
 
 h3 {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 22px;
   line-height: 1.2em;
   padding-bottom: 0.7em; }
 
 p {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 18px;
   line-height: 1.4em;
   padding-bottom: 2em; }
 
 .main__content__ul li {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 18px;
   line-height: 1.4em;
   padding-bottom: 0.5em;
@@ -697,13 +721,17 @@ p {
 /* Link Styles
 ------------------------------------------------------------------ */
 .block__link__subtitle {
+  font-family: halyard-display, sans-serif;
   font-weight: 500;
+  font-style: normal;
   font-size: 17px;
   color: #AFADBA;
   display: block; }
 
 .sidebar__link--title {
-  font-weight: 800;
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   opacity: 0.5;
   font-size: 12px;
   color: #ffffff;
@@ -717,8 +745,9 @@ ul.innerList {
 /* Other
 ------------------------------------------------------------------ */
 .paragraph--meta {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   color: #AFADBA;
   font-size: 11px;
   letter-spacing: 0.3px;
@@ -829,8 +858,9 @@ footer {
   margin: 3% 3% 3% 0;
   padding: 22px;
   text-align: center;
-  font-weight: 700;
-  letter-spacing: -0.32px; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
   .main__content__block__half:hover, .main__content__block__third:hover {
     box-shadow: 0 2px 7px 0 rgba(132, 132, 132, 0.5); }
 
@@ -952,25 +982,32 @@ a {
 .webappText--heading1 {
   color: #213444;
   font-size: 28px;
-  font-weight: 600; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .webappText--heading2 {
   color: #213444;
   font-size: 23px;
-  font-weight: 600; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .webappText--heading3 {
   color: #213444;
   font-size: 19px;
-  font-weight: 600; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .webappText--heading4 {
   color: #6D7C99;
   font-size: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   letter-spacing: 1px; }
 
 .webappText--paragraph {
@@ -988,7 +1025,9 @@ a {
     cursor: pointer; }
 
 .webappText--blockquote {
-  font-weight: 300;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #213444;
   font-size: 23px;
   font-style: italic; }
@@ -1084,7 +1123,9 @@ a {
   padding: 15px; }
 
 .listCard h2 {
+  font-family: halyard-display, sans-serif;
   font-weight: 600;
+  font-style: normal;
   font-size: 19px;
   width: 100%;
   padding-bottom: 1em; }
@@ -1101,8 +1142,9 @@ a {
   .listCard__contentType p {
     color: #ffffff;
     font-size: 13px;
-    font-weight: 700;
-    letter-spacing: -0.32px;
+    font-family: halyard-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
     text-transform: uppercase;
     padding-bottom: 0; }
 
@@ -1211,7 +1253,9 @@ a {
 /*----------- Web App Buttons and links ------------------------*/
 .webappButton {
   transition: all 0.3s ease 0s;
+  font-family: halyard-display, sans-serif;
   font-weight: 600;
+  font-style: normal;
   font-size: 15px;
   padding: 10px 44px;
   border-radius: 100px;
@@ -1293,8 +1337,9 @@ a {
   padding: 6px 12px; }
 
 label {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 12px;
   color: #657D98;
   display: block;
@@ -1813,39 +1858,45 @@ li.colour__block--fourwebapp {
 /* CMS Styles
 ------------------------------------------------------------------ */
 .text--pageTitlePrimary {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 27px;
   color: #6A6F75;
   letter-spacing: -0.5px;
   text-transform: none; }
 
 .text--pageTitleSecondary {
+  font-family: halyard-display, sans-serif;
   font-weight: 600;
+  font-style: normal;
   font-size: 18px;
   color: #6A6F75;
   letter-spacing: -0.5px;
   text-transform: none; }
 
 .text--pageParagraph {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 15px;
   color: #6A6F75;
   letter-spacing: -0.3px;
   text-transform: none; }
 
 .text--pageMicro {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 11px;
   color: #6A6F75;
   letter-spacing: 0;
   text-transform: none; }
 
 .text--pageParagraphWarning {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 15px;
   color: #D62D29;
   letter-spacing: -0.3px;
@@ -1856,8 +1907,9 @@ li.colour__block--fourwebapp {
   padding-left: 20px; }
 
 .text--formWarning {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 13px;
   color: #D62D29;
   letter-spacing: -0.3px;
@@ -1865,8 +1917,9 @@ li.colour__block--fourwebapp {
   padding-bottom: 0; }
 
 .text--link {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 15px;
   color: #0570B6;
   letter-spacing: 0;
@@ -1875,8 +1928,9 @@ li.colour__block--fourwebapp {
     text-decoration: underline; }
 
 a.text--link--micro {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 13px;
   color: #0570B6;
   letter-spacing: -0.3px;
@@ -1889,8 +1943,9 @@ a.text--link--micro {
     text-decoration: underline; }
 
 .text--label {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 12px;
   color: #657D98;
   letter-spacing: 0px;
@@ -1898,29 +1953,34 @@ a.text--link--micro {
   text-decoration: none; }
 
 .text--contentLabel {
+  font-family: halyard-display, sans-serif;
   font-weight: 600;
+  font-style: normal;
   font-size: 15px;
   color: #6A6F75;
   letter-spacing: -0.4px;
   text-decoration: none; }
 
 .text--placeholder {
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   color: #9A9FA5;
   letter-spacing: -0.3px;
   text-decoration: none; }
 
 .text--buttondark {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 14px;
   color: #657D98; }
 
 .text--buttonlight {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 14px;
   color: #fff;
   background: #D2D9E1;
@@ -1930,7 +1990,9 @@ a.text--link--micro {
 
 button {
   transition: all 0.3s ease 0s;
+  font-family: halyard-display, sans-serif;
   font-weight: 600;
+  font-style: normal;
   font-size: 15px;
   padding: 10px 16px;
   border-radius: 5px;
@@ -1955,7 +2017,9 @@ button {
 
 .button--widget {
   transition: all 0.3s ease 0s;
+  font-family: halyard-display, sans-serif;
   font-weight: 600;
+  font-style: normal;
   border-radius: 5px;
   padding: 0;
   width: 63px;
@@ -2083,8 +2147,9 @@ a.remove--negative {
   background-image: url("../assets/images/remove-red.svg"); }
 
 label {
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 12px;
   color: #657D98;
   display: block;
@@ -2552,8 +2617,9 @@ input[type="text"].searchUsers--searchBox {
   box-shadow: 0 5px 0 #ddd;
   font-size: 13px;
   color: #067BBE;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 .navigation__sidebar li {
   padding-top: 15px;
@@ -2579,8 +2645,9 @@ input[type="text"].searchUsers--searchBox {
   padding-bottom: 10px;
   border-bottom: 1px solid #E7E7E7;
   color: #6A6F75;
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   text-align: center;
   font-size: 14px;
   border: 1px solid #F3F3F3;
@@ -2760,8 +2827,9 @@ input[type="text"].searchUsers--searchBox {
 .miniModal__contentArea ul {
   width: 100%;
   padding-top: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 15px;
   color: #707070;
   letter-spacing: 0;
@@ -2809,16 +2877,17 @@ input[type="text"].searchUsers--searchBox {
 
 /*Native Styles
 ------------------------------------------------------------------ */
-/* Native Variables
+/* Mobile App Variables
 ------------------------------------------------------------------ */
-/* Buttons for native app
+/* Buttons for native apps
 ------------------------------------------------------------------ */
-/* Native Variables
+/* Mobile App Variables
 ------------------------------------------------------------------ */
 .nativeButton {
   transition: all 0.3s ease 0s;
-  font-weight: 700;
-  letter-spacing: -0.32px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 17px;
   padding: 13px 90px;
   border-radius: 100px;
@@ -2846,7 +2915,7 @@ input[type="text"].searchUsers--searchBox {
 
 .secondaryButton {
   background-color: #ffffff;
-  color: #343D4C;
+  color: #181E26;
   border: 1px solid #E2E2E2;
   padding: 10px 50px 13px 50px; }
   .secondaryButton--pressed {
@@ -2900,109 +2969,132 @@ li.colour__block--LinkColour {
 
 /* Typography for Web App
 ------------------------------------------------------------------ */
-/* Native Variables
+/* Mobile App Variables
 ------------------------------------------------------------------ */
+body {
+  font-family: halyard-display, sans-serif;
+  color: #38344A; }
+
 /* Modular Text Styles
 ------------------------------------------------------------------ */
 a {
   cursor: pointer; }
 
 .mobileModularPage__paragraph {
-  color: #343D4C;
+  color: #181E26;
   font-size: 17px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
   .mobileModularPage__paragraph a {
     border-bottom: 1px solid #C9C9C9; }
     .mobileModularPage__paragraph a:hover {
-      border-color: #343D4C; }
+      border-color: #181E26; }
 
 .mobileModularPage__heading1 {
-  color: #343D4C;
-  font-size: 26px;
-  font-weight: 300; }
+  color: #181E26;
+  font-size: 27px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal; }
 
 .mobileModularPage__heading2 {
-  color: #343D4C;
+  color: #181E26;
   font-size: 21px;
-  font-weight: 300; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal; }
 
 .mobileModularPage__heading3 {
-  color: #343D4C;
+  color: #181E26;
   font-size: 18px;
-  font-weight: 600; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .mobileModularPage__heading4 {
   color: #637289;
   font-size: 15px;
   letter-spacing: 0.8px !important;
   text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -0.32px; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .mobileModularPage__blockquoteone {
-  color: #343D4C;
+  color: #181E26;
   font-size: 22px;
   font-style: italic;
-  font-weight: 300; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
 
 .mobileModularPage__socialStats {
-  color: #9CA9BC;
+  color: #738BB2;
   font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 .mobileModularPage__commenter {
-  color: #343D4C;
+  color: #181E26;
   font-size: 15px;
-  font-weight: 700;
-  letter-spacing: -0.32px; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .mobileModularPage__metatext {
-  color: #9CA9BC;
+  color: #738BB2;
   font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 .mobileModularPage__commentBody {
-  color: #343D4C;
+  color: #181E26;
   font-size: 16px;
   line-height: 1.3em;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 .mobileModularPage__caption {
   color: #637289;
   font-size: 14px;
   line-height: 1.2em;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 /* Screen Styles
 ------------------------------------------------------------------ */
 .mobileScreen__heading1 {
-  color: #343D4C;
+  color: #181E26;
   font-size: 23px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 .mobileScreen__paragraph {
-  color: #343D4C;
+  color: #181E26;
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 .mobileScreen__link {
   color: #106DE0;
   font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 .mobileScreen__meta {
   color: #637289;
   font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 /* Styles for list layout - native 
 
@@ -3035,8 +3127,9 @@ a {
   padding-bottom: 15px;
   color: #fff;
   font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 12%, rgba(0, 0, 0, 0.76) 99%, rgba(0, 0, 0, 0.77) 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 12%, rgba(0, 0, 0, 0.76) 99%, rgba(0, 0, 0, 0.77) 100%);
@@ -3053,8 +3146,9 @@ a {
   padding-bottom: 15px;
   color: #fff;
   font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 12%, rgba(0, 0, 0, 0.76) 99%, rgba(0, 0, 0, 0.77) 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.09) 12%, rgba(0, 0, 0, 0.76) 99%, rgba(0, 0, 0, 0.77) 100%);
@@ -3067,19 +3161,24 @@ a {
 .webappText--heading3 {
   color: #213444;
   font-size: 19px;
-  font-weight: 600; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 /*---------- table 2 ----------------------------------*/
 .nativeText--heading4 {
   color: #1A2D4C;
   font-size: 24px;
-  font-weight: 600; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 600;
+  font-style: normal; }
 
 .nativeText--heading5 {
   color: #637289;
   font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0; }
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 /* Responsive Styling */
 @media only screen and (max-width: 800px) {

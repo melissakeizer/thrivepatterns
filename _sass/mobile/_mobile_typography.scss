@@ -84,7 +84,7 @@ a{
 .mobileModularPage__heading3{
   color: $PrimaryBodyColour;
   font-size: 18px;
-  @include latoSemibold;
+  @include halyardSemibold;
 }
 
 .mobileModularPage__heading4{
@@ -92,46 +92,46 @@ a{
   font-size: 15px;
   letter-spacing: 0.8px !important;
   text-transform: uppercase;
-  @include latoBold;
+  @include halyardSemibold;
 }
 
 .mobileModularPage__blockquoteone{
   color: $PrimaryBodyColour;
   font-size: 22px;
   font-style: italic;
-  @include latoLight;
+  @include halyardRegular;
 }
 
 .mobileModularPage__socialStats{
   color: $MetaTextColour;
   font-size: 14px;
-  @include latoRegular;
+  @include halyardBook;
 }
 
 .mobileModularPage__commenter{
   color: $PrimaryBodyColour;
   font-size: 15px;
-  @include latoBold;
+  @include halyardSemibold;
 }
 
 .mobileModularPage__metatext{
   color: $MetaTextColour;
   font-size: 13px;
-  @include latoRegular;
+  @include halyardBook;
 }
 
 .mobileModularPage__commentBody{
   color: $PrimaryBodyColour;
   font-size: 16px;
   line-height: 1.3em;
-  @include latoRegular;
+  @include halyardBook;
 }
 
 .mobileModularPage__caption{
   color: $SecondaryBodyColour;
   font-size: 14px;
   line-height: 1.2em;
-  @include latoRegular;
+  @include halyardBook;
 }
 
 
@@ -143,23 +143,23 @@ a{
 .mobileScreen__heading1{
   color: $PrimaryBodyColour;
   font-size: 23px;
-  @include latoRegular;
+  @include halyardBook;
 }
 
 .mobileScreen__paragraph{
   color: $PrimaryBodyColour;
   font-size: 16px;
-  @include latoRegular;
+  @include halyardBook;
 }
 
 .mobileScreen__link{
   color: $LinkColour;
   font-size: 16px;
-  @include latoRegular;
+  @include halyardBook;
 }
 
 .mobileScreen__meta{
   color: $SecondaryBodyColour;
   font-size: 13px;
-  @include latoRegular;
+  @include halyardBook;
 }

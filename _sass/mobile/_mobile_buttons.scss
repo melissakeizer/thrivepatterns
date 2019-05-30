@@ -6,7 +6,7 @@
 
 .nativeButton{
   @include fadeAnimation;
-  @include latoBold;
+  @include halyardSemibold;
   font-size: 17px;
 	padding: 13px 90px;
   border-radius: 100px;

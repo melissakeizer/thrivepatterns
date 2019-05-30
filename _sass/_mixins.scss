@@ -1,34 +1,50 @@
 /* Mixins
 ------------------------------------------------------------------ */
 
-@mixin latoLight{
+@mixin halyardBook{
+	font-family: halyard-display, sans-serif;
 	font-weight: 300;
+	font-style: normal;
 }
 
-@mixin latoRegular{
+@mixin halyardBookItalic{
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+@mixin halyardRegular{
+	font-family: halyard-display, sans-serif;
 	font-weight: 400;
-	letter-spacing: 0;
+	font-style: normal;
 }
 
-@mixin latoMedium{
+@mixin halyardRegularItalic{
+	font-family: halyard-display, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@mixin halyardMedium{
+	font-family: halyard-display, sans-serif;
 	font-weight: 500;
+	font-style: normal;
 }
 
-@mixin latoSemibold{
+@mixin halyardSemibold{
+	font-family: halyard-display, sans-serif;
 	font-weight: 600;
+	font-style: normal;
 }
 
-@mixin latoBold{
+@mixin halyardBold{
+	font-family: halyard-display, sans-serif;
 	font-weight: 700;
-	letter-spacing: -0.32px;
-}
-
-@mixin latoHeavy{
-	font-weight: 800;
+	font-style: normal;
 }
 
 @mixin sidebarLink{
-	@include latoRegular;
+	@include halyardBook;
 	color: $purple__dark;
 	text-decoration:none;
 	font-size: 18px;
@@ -37,7 +53,7 @@
 	}
 	&.active{
 		color: $pink;
-		@include latoBold;
+		@include halyardSemibold;
 	}
 }
 
@@ -57,7 +73,7 @@
 
 @mixin sidebarTitle{
 	color: #6A6F75;
-	@include latoBold;
+	@include halyardSemibold;
 	text-align: center;
 	font-size: 14px;
 
@@ -67,7 +83,7 @@
 @mixin sidebarPrimary{
 	font-size: 13px;
 	color: $tableEmailText;
-	@include latoRegular;
+	@include halyardBook;
 
 }
 

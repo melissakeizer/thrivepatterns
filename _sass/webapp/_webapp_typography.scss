@@ -14,19 +14,19 @@ a{
 .webappText--heading1{
   color: $textNavy;
   font-size: 28px;
-  @include latoSemibold;
+  @include halyardSemibold;
 }
 
 .webappText--heading2{
   color: $textNavy;
   font-size: 23px;
-  @include latoSemibold;
+  @include halyardSemibold;
 }
 
 .webappText--heading3{
   color: $textNavy;
   font-size: 19px;
-  @include latoSemibold;
+  @include halyardSemibold;
 }
 
 .webappText--heading4 {
@@ -34,7 +34,7 @@ a{
     font-size: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    @include latoBold;
+    @include halyardSemibold;
     letter-spacing: 1px; }
 
 .webappText--paragraph {
@@ -53,7 +53,7 @@ a{
   }
 }
 .webappText--blockquote {
-  @include latoLight;
+  @include halyardRegular;
   color: $textNavy;
   font-size: 23px;
   font-style: italic;

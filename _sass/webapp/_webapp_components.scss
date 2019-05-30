@@ -28,7 +28,7 @@
 }
 
 .listCard h2{
-  @include latoSemibold;
+  @include halyardSemibold;
   font-size: 19px;
   width: 100%;
   padding-bottom: 1em;
@@ -48,7 +48,7 @@
   p{
     color: $white;
     font-size: 13px;
-    @include latoBold;
+    @include halyardSemibold;
     text-transform: uppercase;
     padding-bottom: 0;
   }

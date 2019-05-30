@@ -1,2 +1,2 @@
-# tab-pattern-library
-Design Guidelines for TheAppBuilder platform
+# thrivepatterns
+Pattern Library for Thrive
