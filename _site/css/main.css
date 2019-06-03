@@ -2886,32 +2886,38 @@ input[type="text"].searchUsers--searchBox {
 .nativeButton {
   transition: all 0.3s ease 0s;
   font-family: halyard-display, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
-  font-size: 17px;
+  font-size: 18px;
   padding: 13px 90px;
   border-radius: 100px;
   margin: 10px 20px 10px 0px; }
 
 .primaryButton {
-  background-color: #89BE2C;
+  background-color: #106DE0;
   color: #ffffff; }
   .primaryButton--pressed {
-    background: #719d24;
+    background: #0d5aba;
     color: #ffffff; }
   .primaryButton--disabled {
     color: rgba(255, 255, 255, 0.5); }
 
 .floatingButton {
+  transition: all 0.3s ease 0s;
   background-color: #EF353C;
   color: #ffffff;
-  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.25);
-  padding: 12px 40px 13px; }
+  box-shadow: 0 4px 6px 2px rgba(0, 0, 0, 0.15);
+  height: 52px;
+  width: 52px;
+  border-radius: 100%;
+  padding: 0; }
   .floatingButton--pressed {
     background: #e9121b;
     color: #ffffff; }
   .floatingButton--disabled {
     color: rgba(255, 255, 255, 0.5); }
+  .floatingButton img {
+    height: 26px; }
 
 .secondaryButton {
   background-color: #ffffff;
@@ -2919,7 +2925,7 @@ input[type="text"].searchUsers--searchBox {
   border: 1px solid #E2E2E2;
   padding: 10px 50px 13px 50px; }
   .secondaryButton--pressed {
-    background-color: #F4F4F4; }
+    background-color: #EAEDF1; }
   .secondaryButton--disabled {
     color: #9CA9BC; }
 
@@ -2927,7 +2933,7 @@ input[type="text"].searchUsers--searchBox {
   display: inline-block;
   width: 18px;
   max-width: 18px;
-  margin: 6px 5px 0 0; }
+  margin: 6px 7px 0 0; }
 
 li.colour__block {
   width: 22.6%;
@@ -2941,7 +2947,7 @@ li.colour__block:last-child {
   margin-right: 0; }
 
 li.colour__block--PrimaryBodyColour {
-  background: #343D4C; }
+  background: #181E26; }
 
 li.colour__block--SecondaryBodyColour {
   background: #637289; }

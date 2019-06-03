@@ -6,18 +6,18 @@
 
 .nativeButton{
   @include fadeAnimation;
-  @include halyardSemibold;
-  font-size: 17px;
+  @include halyardMedium;
+  font-size: 18px;
 	padding: 13px 90px;
   border-radius: 100px;
   margin: 10px 20px 10px 0px;
 }
 
 .primaryButton{
-  background-color: #89BE2C;
+  background-color: $LinkColour;
   color: $white;
   &--pressed{
-    background: darken(#89BE2C,8%);
+    background: darken($LinkColour,8%);
     color: $white;
   }
   &--disabled{
@@ -26,16 +26,23 @@
 }
 
 .floatingButton{
+  @include fadeAnimation;
   background-color: #EF353C;
   color: $white;
-  box-shadow: 0 4px 6px 2px rgba(0,0,0,0.25);
-  padding: 12px 40px 13px;
+  box-shadow: 0 4px 6px 2px rgba(0,0,0,0.15);
+  height: 52px;
+  width: 52px;
+  border-radius: 100%;
+  padding: 0;
   &--pressed{
     background: darken(#EF353C,8%);
     color: $white;
   }
   &--disabled{
     color: rgba(255,255,255,0.5);
+  }
+  img{
+    height: 26px;
   }
 }
 
@@ -45,7 +52,7 @@
   border: 1px solid $SubtleGrey;
   padding: 10px 50px 13px 50px;
   &--pressed{
-    background-color: #F4F4F4;
+    background-color: $ActiveButtonGrey;
   }
   &--disabled{
     color: $PlaceholderColour;
@@ -56,5 +63,5 @@
   display: inline-block;
   width: 18px;
   max-width: 18px;
-  margin: 6px 5px 0 0;
+  margin: 6px 7px 0 0;
 }
