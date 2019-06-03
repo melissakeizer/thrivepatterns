@@ -57,18 +57,6 @@ a{
   cursor:pointer;
 }
 
-.mobileModularPage__paragraph{
-  color: $PrimaryBodyColour;
-  font-size: 17px;
-  @include halyardBook;
-	a{
-		border-bottom: 1px solid $BorderGrey;
-		&:hover{
-			border-color: $PrimaryBodyColour;
-		}
-	}
-}
-
 .mobileModularPage__heading1{
   color: $PrimaryBodyColour;
   font-size: 27px;
@@ -84,47 +72,27 @@ a{
 .mobileModularPage__heading3{
   color: $PrimaryBodyColour;
   font-size: 18px;
-  @include halyardSemibold;
+  @include halyardMedium;
 }
 
 .mobileModularPage__heading4{
   color: $SecondaryBodyColour;
-  font-size: 15px;
+  font-size: 13px;
   letter-spacing: 0.8px !important;
   text-transform: uppercase;
   @include halyardSemibold;
 }
 
-.mobileModularPage__blockquoteone{
+.mobileModularPage__paragraph{
   color: $PrimaryBodyColour;
-  font-size: 22px;
-  font-style: italic;
-  @include halyardRegular;
-}
-
-.mobileModularPage__socialStats{
-  color: $MetaTextColour;
-  font-size: 14px;
+  font-size: 17px;
   @include halyardBook;
-}
-
-.mobileModularPage__commenter{
-  color: $PrimaryBodyColour;
-  font-size: 15px;
-  @include halyardSemibold;
-}
-
-.mobileModularPage__metatext{
-  color: $MetaTextColour;
-  font-size: 13px;
-  @include halyardBook;
-}
-
-.mobileModularPage__commentBody{
-  color: $PrimaryBodyColour;
-  font-size: 16px;
-  line-height: 1.3em;
-  @include halyardBook;
+	a{
+		border-bottom: 1px solid $BorderGrey;
+		&:hover{
+			border-color: $PrimaryBodyColour;
+		}
+	}
 }
 
 .mobileModularPage__caption{
@@ -134,6 +102,27 @@ a{
   @include halyardBook;
 }
 
+.mobileModularPage__blockquoteone{
+  color: $PrimaryBodyColour;
+  font-size: 20px;
+  @include halyardRegular;
+}
+
+.mobileModularPage__commenter{
+  color: $PrimaryBodyColour;
+  font-size: 15px;
+  @include halyardMedium;
+}
+
+
+.mobileModularPage__commentBody{
+  color: $PrimaryBodyColour;
+  font-size: 16px;
+  line-height: 1.3em;
+  @include halyardBook;
+}
+
+
 
 
 
@@ -142,24 +131,74 @@ a{
 
 .mobileScreen__heading1{
   color: $PrimaryBodyColour;
-  font-size: 23px;
-  @include halyardBook;
+  font-size: 21px;
+  @include halyardMedium;
 }
 
 .mobileScreen__paragraph{
   color: $PrimaryBodyColour;
-  font-size: 16px;
+  font-size: 17px;
   @include halyardBook;
 }
 
 .mobileScreen__link{
   color: $LinkColour;
-  font-size: 16px;
+  font-size: 17px;
+  @include halyardRegular;
+}
+
+.mobileScreen__metatext{
+	color: $MetaTextColour;
+  font-size: 13px;
   @include halyardBook;
 }
 
-.mobileScreen__meta{
-  color: $SecondaryBodyColour;
-  font-size: 13px;
-  @include halyardBook;
+
+/* List Items
+------------------------------------------------------------------ */
+
+.listLayout_titleLarge{
+	color: $PrimaryBodyColour;
+	font-size: 17px;
+	@include halyardRegular;
+}
+
+.listLayout_titleSmall{
+	color: $PrimaryBodyColour;
+	font-size: 15px;
+	@include halyardRegular;
+}
+
+.listLayout_meta{
+	color: $SecondaryBodyColour;
+	font-size: 13px;
+	@include halyardBook;
+}
+
+.listLayout_notificationBody{
+	color: $PrimaryBodyColour;
+	font-size: 15px;
+	@include halyardRegular;
+}
+
+
+/* Contact/Profile
+------------------------------------------------------------------ */
+
+.profile_displayName{
+	color: $PrimaryBodyColour;
+	font-size: 27px;
+	@include halyardMedium;
+}
+
+.profile_jobTitle{
+	color: $PrimaryBodyColour;
+	font-size: 17px;
+	@include halyardRegular;
+}
+
+.profile_bio{
+	color: $PrimaryBodyColour;
+	font-size: 17px;
+	@include halyardBook;
 }

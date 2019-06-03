@@ -2980,17 +2980,6 @@ body {
 a {
   cursor: pointer; }
 
-.mobileModularPage__paragraph {
-  color: #181E26;
-  font-size: 17px;
-  font-family: halyard-display, sans-serif;
-  font-weight: 300;
-  font-style: normal; }
-  .mobileModularPage__paragraph a {
-    border-bottom: 1px solid #C9C9C9; }
-    .mobileModularPage__paragraph a:hover {
-      border-color: #181E26; }
-
 .mobileModularPage__heading1 {
   color: #181E26;
   font-size: 27px;
@@ -3009,45 +2998,49 @@ a {
   color: #181E26;
   font-size: 18px;
   font-family: halyard-display, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal; }
 
 .mobileModularPage__heading4 {
   color: #637289;
-  font-size: 15px;
+  font-size: 13px;
   letter-spacing: 0.8px !important;
   text-transform: uppercase;
   font-family: halyard-display, sans-serif;
   font-weight: 600;
   font-style: normal; }
 
-.mobileModularPage__blockquoteone {
+.mobileModularPage__paragraph {
   color: #181E26;
-  font-size: 22px;
-  font-style: italic;
-  font-family: halyard-display, sans-serif;
-  font-weight: 400;
-  font-style: normal; }
-
-.mobileModularPage__socialStats {
-  color: #738BB2;
-  font-size: 14px;
+  font-size: 17px;
   font-family: halyard-display, sans-serif;
   font-weight: 300;
+  font-style: normal; }
+  .mobileModularPage__paragraph a {
+    border-bottom: 1px solid #C9C9C9; }
+    .mobileModularPage__paragraph a:hover {
+      border-color: #181E26; }
+
+.mobileModularPage__caption {
+  color: #637289;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
+
+.mobileModularPage__blockquoteone {
+  color: #181E26;
+  font-size: 20px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
   font-style: normal; }
 
 .mobileModularPage__commenter {
   color: #181E26;
   font-size: 15px;
   font-family: halyard-display, sans-serif;
-  font-weight: 600;
-  font-style: normal; }
-
-.mobileModularPage__metatext {
-  color: #738BB2;
-  font-size: 13px;
-  font-family: halyard-display, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal; }
 
 .mobileModularPage__commentBody {
@@ -3058,40 +3051,85 @@ a {
   font-weight: 300;
   font-style: normal; }
 
-.mobileModularPage__caption {
-  color: #637289;
-  font-size: 14px;
-  line-height: 1.2em;
-  font-family: halyard-display, sans-serif;
-  font-weight: 300;
-  font-style: normal; }
-
 /* Screen Styles
 ------------------------------------------------------------------ */
 .mobileScreen__heading1 {
   color: #181E26;
-  font-size: 23px;
+  font-size: 21px;
   font-family: halyard-display, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal; }
 
 .mobileScreen__paragraph {
   color: #181E26;
-  font-size: 16px;
+  font-size: 17px;
   font-family: halyard-display, sans-serif;
   font-weight: 300;
   font-style: normal; }
 
 .mobileScreen__link {
   color: #106DE0;
-  font-size: 16px;
+  font-size: 17px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.mobileScreen__metatext {
+  color: #738BB2;
+  font-size: 13px;
   font-family: halyard-display, sans-serif;
   font-weight: 300;
   font-style: normal; }
 
-.mobileScreen__meta {
+/* List Items
+------------------------------------------------------------------ */
+.listLayout_titleLarge {
+  color: #181E26;
+  font-size: 17px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.listLayout_titleSmall {
+  color: #181E26;
+  font-size: 15px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.listLayout_meta {
   color: #637289;
   font-size: 13px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
+
+.listLayout_notificationBody {
+  color: #181E26;
+  font-size: 15px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+/* Contact/Profile
+------------------------------------------------------------------ */
+.profile_displayName {
+  color: #181E26;
+  font-size: 27px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal; }
+
+.profile_jobTitle {
+  color: #181E26;
+  font-size: 17px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.profile_bio {
+  color: #181E26;
+  font-size: 17px;
   font-family: halyard-display, sans-serif;
   font-weight: 300;
   font-style: normal; }
