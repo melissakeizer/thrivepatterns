@@ -50,7 +50,7 @@
 		  <a href="#" id="navigation__mobile__icon" class="hamburgerMenu"><img src="/assets/images/base/burger-menu.svg" alt="Open Menu" /img></a>
 	    <ul class="navigation__primary__list">
 	      <li  class="platform"><a href="/cms/"  >Content Management System</a></li>
-	      <li class="platform"><a href="/native/" >Mobile Apps</a></li>
+	      <li class="platform"><a href="/mobile/" >Mobile Apps</a></li>
 	      <li class="platform"><a href="/webapp/" >Webapp</a></li>
           <li class="platform"><a href="/history/" >Revision History</a></li>
 	    </ul>
@@ -113,8 +113,9 @@
       <li><a href="/mobile/"  >Introduction</a></li>
       <li><a href="/mobile/typography/"  >Typography</a></li>
       <li><a href="/mobile/colours/"  >Colour Palette</a></li>
-      <li><a href="/mobile/buttons/"  >Buttons</a></li>
-
+      <li><a href="/mobile/buttons/" class="active" >Buttons</a></li>
+      <li><a href="/mobile/navigation/"  >Navigation</a></li>
+      <li><a href="/mobile/forms/"  >Forms</a></li>
 </nav>
 
           <div class="main__content">
@@ -125,7 +126,7 @@
 <p>Primary buttons are round, lozenge shapes and should take on the brand colour as set by the app editor. Depending on the lightness of the colour, the button text can be white or black.</p>
 
 <h3>Adjustable &amp; Fixed Width</h3>
-<p>The buttons can be either a fixed width or they will adjust depending on the text label length. Fixed buttons are as wide as the screen container, such as buttons in onboarding screens, so as the user moves through the flow their won't be a visual "jumping about" of the button width. Conversely, adjustable buttons' width is determined by the label length and should always have 80px of padding on both the left and right side. <p>
+<p>The buttons can be either a fixed width or they will adjust depending on the text label length. Fixed buttons are as wide as the screen container, such as buttons in onboarding screens, so as the user moves through the flow their won't be a visual "jumping about" of the button width. Conversely, adjustable buttons' width is determined by the label length and should always have 50px of padding on both the left and right side. <p>
 
 <!-- <div class="imageContainer imageContainer--two padding__50">
 	<img src="/assets/images/native/register.jpg" alt="Register screen" /img>
@@ -170,7 +171,12 @@
 </div>
 
 <h2>Radio Buttons</h2>
-<p>If a user must make a choice between two options in a form, such as a Peer Recognition form, these options will appear as radio buttons. These buttons are similarly styled to Secondary Buttons however they can appear side by side. Only one can be selected and the selected choice is highlighted by use of a $SecondaryBodyColor border. Selected a radio button does not submit the form. </p>
+<p>If a user must make a choice between two options in a form, such as a Peer Recognition form, these options will appear as radio buttons. These buttons are similarly styled to Secondary Buttons however they can appear side by side and have less padding on the left and right sides (to make them more compact). Only one can be selected and the selected choice is highlighted by use of a $PrimaryBodyColor border.</p>
+
+<div class="main__content__block textWidth padding__50"  markdown="0">
+    <button class="nativeButton radioButton">A Team</button>
+     <button class="nativeButton radioButton radioButton--active">An Individual</button>
+</div>
 
 
 <!-- <div class="imageContainer imageContainer--two padding__50">
