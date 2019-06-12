@@ -15,30 +15,29 @@ body{
 
 h1{
 	@include halyardSemibold;
-	font-size: 42px;
-	color: $pink;
+	font-size: 45px;
 	line-height: 1.1em;
 	padding-bottom: 0.8em;
 }
 
 h2{
 	@include halyardSemibold;
-	font-size: 27px;
+	font-size: 29px;
 	line-height: 1.2em;
 	padding-bottom: 0.7em;
 	clear: both;
 }
 
 h3{
-		@include halyardSemibold;
-	font-size: 22px;
+	@include halyardSemibold;
+	font-size: 24px;
 	line-height: 1.2em;
 	padding-bottom: 0.7em;
 }
 
 p{
 	@include halyardBook;
-	font-size: 18px;
+	font-size: 21px;
 	line-height: 1.4em;
 	padding-bottom: 2em;
 }
@@ -67,7 +66,7 @@ p{
 .block__link__subtitle{
 	@include halyardMedium;
 	font-size: 17px;
-	color: $purple__light;
+	color: $light__navy;
 	display: block;
 }
 
@@ -93,7 +92,7 @@ ul.innerList{
 
 .paragraph--meta{
 	@include halyardMedium;
-	color: $purple__meta;
+	color: $light__navy;
 	font-size: 11px;
     letter-spacing: 0.3px;
     text-transform: uppercase;

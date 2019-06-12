@@ -19,7 +19,7 @@ a{
 }
 
 body{
-  background-color: $purple__background;
+  background-color: $white;
   z-index: 1;
 }
 
@@ -33,20 +33,19 @@ body{
 ------------------------------------------------------------------ */
 
 .main__content{
-	padding: 80px 0;
+	margin: 80px 0;
   float: left;
   background: $white;
-  margin-top: -75px;
-  width: 80%;
+  width: 85%;
   border-radius: 3px;
-  border: 1px solid #EFEFEF;
-  box-shadow: 0 2px 4px 2px rgba(132,132,132,0.18);
+  border-left: 1px solid #EFEFEF;
   min-height: 500px;
 }
 
 .main__content--home{
-  float: none;
-  margin: -75px auto auto auto;
+  border: none;
+  margin: 80px auto;
+  width: 100%;
 }
 
 .main__content__img{
@@ -54,7 +53,7 @@ body{
 }
 
 .main__content p, .main__content h1, .main__content h2, .main__content ul, .main__content h3{
-	max-width: 595px;
+	max-width: 630px;
 	margin: 0 auto;
   width: 80%;
 }
@@ -73,14 +72,13 @@ body{
 	margin: 0 auto;
 	display: block;
 	width: 90%;
-	max-width: 1250px;
+	max-width: 1100px;
 }
 
 footer{
 	clear: both;
 	width: 100%;
 	padding: 5% 0 5% 0;
-	color: $purple__light;
 	text-align: center;
 	font-size: 14px;
 }
@@ -91,7 +89,7 @@ footer{
 ------------------------------------------------------------------ */
 
 .main__content__block{
-  width: 80%;
+  width: 85%;
   display: block;
   margin: 0 auto;
 }
@@ -101,21 +99,20 @@ footer{
 }
 
 .textWidth{
-  max-width: 595px;
+  max-width: 630px;
 }
 
 .main__content__block__half, .main__content__block__third{
   width: 46.5%;
 	display: inline-block;
-	border: 1px solid #F4F4F4;
-	box-shadow: 0 2px 3px 0 rgba(208,208,208,0.50);
-	border-radius: 7px;
+	border: 1px solid $blue__light;
+	border-radius: 1px;
 	margin: 3% 3% 3% 0;
 	padding: 22px;
 	text-align: center;
 	@include halyardSemibold;
 	&:hover{
-		box-shadow: 0 2px 7px 0 rgba(132,132,132,0.50);
+		box-shadow: 0 2px 7px 0 rgba(132,132,132,0.30);
 	}
 }
 
@@ -129,6 +126,11 @@ footer{
 
 .block__link__icon{
 	color: $pink;
+}
+
+.block__link__icon--white{
+	color: $white;
+  padding: 3px 8px 0 8px;
 }
 
 .styling__block{
@@ -203,11 +205,11 @@ li.colour__block{
 		background: $cmsLightGrey;
 	}
     &--thirteen{
-        background: 
+        background:
             #6D7C98;
     }
     &--fourteen{
-        background: 
+        background:
             #EDF0F3;
     }
 }

@@ -6,30 +6,27 @@
 .logo--main{
   width: 90%;
   img{
-    max-width: 200px;
-    padding-left: 5px;
+    max-width: 140px;
   }
 }
 
 .navigation__primary{
   width: 100%;
-  background: $purple__dark;
-  padding: 40px 0 130px 0;
-  border-bottom: 3px $gold;
+  background: $dark__navy;
+  padding: 18px 0 13px 0;
 }
 
 .navigation__primary__list{
   float: right;
-  padding-top: 20px;
+  padding-top: 13px;
   li{
     display: inline-block;
     padding-left: 23px;
+    letter-spacing: 0.4px;
     a{
-      @include halyardSemibold;
-      font-size: 13px;
-      text-transform: uppercase;
-      color: $purple__light;
-      letter-spacing: 0.5px;
+      @include halyardRegular;
+      font-size: 16px;
+      color: $blue__light;
       &:hover{
         color: $white;
       }
@@ -43,18 +40,26 @@
 }
 
 
+.navigation__breadcrumbs{
+  width: 100%;
+  background: $pink;
+  padding: 8px 0 10px 0;
+  color: $white;
+  text-transform: capitalize;
+}
+
 /* Navigation Sidebar Area
 ------------------------------------------------------------------ */
 
 .navigation__secondary{
   float: left;
-  width: 20%;
+  width: 15%;
 }
 
 .navigation__secondary__list{
-	padding: 45px 0;
+	padding: 80px 0;
 	li{
-		padding: 9px 0;
+		padding:11px 0;
     list-style: none;
 		&.platform{
 			padding: 15px 0;
@@ -104,7 +109,7 @@
   visibility: hidden;
   z-index: 1000;
   position: fixed;
-  background: $purple__dark;
+  background: $dark__navy;
   top: 0;
   left: 0;
   height: 100%;
@@ -129,17 +134,17 @@
       a{
       @include halyardSemibold;
       letter-spacing: 0.3px;
-      color: lighten($purple__dark, 50%);
+      color: lighten($dark__navy, 50%);
       }
     }
     a{
       @include sidebarLink;
       color: $white;
       &:hover{
-        color: $gold;
+        color: $pink;
       }
       &.active{
-        color: $gold;
+        color: $pink;
       }
     }
   }
