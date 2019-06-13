@@ -812,7 +812,7 @@ body {
   padding-bottom: 2em; }
 
 .main__content img {
-  width: 80%;
+  width: 90%;
   display: block;
   margin: 0 auto; }
 
@@ -2893,10 +2893,10 @@ input[type="text"].searchUsers--searchBox {
   margin: 10px 20px 10px 0px; }
 
 .primaryButton {
-  background-color: #106DE0;
+  background-color: #738BB2;
   color: #ffffff; }
   .primaryButton--pressed {
-    background: #0d5aba;
+    background: #5975a3;
     color: #ffffff; }
   .primaryButton--disabled {
     color: rgba(255, 255, 255, 0.5); }
@@ -3083,14 +3083,14 @@ a {
   font-style: normal; }
 
 .mobileScreen__link {
-  color: #106DE0;
+  color: #738BB2;
   font-size: 17px;
   font-family: halyard-display, sans-serif;
   font-weight: 400;
   font-style: normal; }
 
 .mobileScreen__metatext {
-  color: #738BB2;
+  color: #9CA9BC;
   font-size: 13px;
   font-family: halyard-display, sans-serif;
   font-weight: 300;
