@@ -95,7 +95,7 @@ a.text--link--micro {
     color: $cmsGrey;
     letter-spacing: -0.4px;
     text-decoration: none;
-    
+
 }
 .text--placeholder {
     @include halyardBook;
@@ -103,7 +103,7 @@ a.text--link--micro {
     color: $cmsPlaceholder;
     letter-spacing: -0.3px;
     text-decoration: none;
-    
+
 }
 
 
@@ -151,7 +151,7 @@ button {
     }
    text-align: center;
     margin-left: 10%;
-    
+
 }
 
 .button--widget {
@@ -216,7 +216,7 @@ button {
 }
 
 .bin img {
-    
+
     max-width: 25px;
 }
 .button--upload {
@@ -261,7 +261,7 @@ button {
     &:hover {
         text-decoration: underline;
     }
-    
+
 }
 .button--secondary {
     color: $buttonSecondaryText;
@@ -514,7 +514,7 @@ table {
 }
 
 .table-allUsers1 th {
-    background-color: #a73a5e;
+    background-color: $dark__navy;
     color: #FFFFFF;
     text-align: left;
     font-weight: 800;
@@ -524,7 +524,7 @@ table {
 .table-allUsers1 td,
 th {
     padding: 10px 17px 10px 10px;
-    
+
 }
 
 .table-allUsers1 th {
@@ -540,7 +540,7 @@ th {
 }
 
 .name {
-    font-weight: 800; 
+    font-weight: 800;
 }
 /*Search Users
 -----------------------------------------------------------------------------------------------------*/
@@ -729,7 +729,7 @@ input[type="text"].searchUsers--searchBox {
 }
 .placeholder {
     height: 60px;
-   
+
 }
 
 .wide {
@@ -852,7 +852,7 @@ input[type="text"].searchUsers--searchBox {
   grid-gap: 10px;
   grid-auto-columns: 100px;
   grid-template-columns: repeat(2, minmax(0px, 1fr));
-  max-width: 600px; 
+  max-width: 600px;
 }
 
 .illustration {
@@ -1052,7 +1052,7 @@ input[type="text"].searchUsers--searchBox {
 }
 
 .modal__container--remove {
-    
+
     border: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -1194,7 +1194,7 @@ input[type="text"].searchUsers--searchBox {
 
 .widget-gallery img {
     height: 100px;
-    
+
 }
 
 .modular-page img {
@@ -1216,7 +1216,7 @@ input[type="text"].searchUsers--searchBox {
 .panel-gallery img {
     width: 300px;
     box-shadow: none;
-    
+
 }
 
 /*------------------tooltips--------------*/

@@ -410,7 +410,7 @@ h2 {
 
 h3 {
   font-family: halyard-display, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: 24px;
   line-height: 1.2em;
@@ -552,7 +552,6 @@ p.caption {
 ------------------------------------------------------------------ */
 .hamburgerMenu {
   display: none;
-  margin-top: 10px;
   padding-top: 16px;
   background: #FE0363;
   width: 45px;
@@ -685,7 +684,7 @@ h2 {
 
 h3 {
   font-family: halyard-display, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: 24px;
   line-height: 1.2em;
@@ -843,7 +842,7 @@ footer {
 .textWidth {
   max-width: 630px; }
 
-.main__content__block__half, .main__content__block__third {
+.main__content__block__half, .main__content__block__third, .main__content__block__fullwidth {
   width: 46.5%;
   display: inline-block;
   border: 1px solid #B6D2E5;
@@ -854,11 +853,14 @@ footer {
   font-family: halyard-display, sans-serif;
   font-weight: 600;
   font-style: normal; }
-  .main__content__block__half:hover, .main__content__block__third:hover {
+  .main__content__block__half:hover, .main__content__block__third:hover, .main__content__block__fullwidth:hover {
     box-shadow: 0 2px 7px 0 rgba(132, 132, 132, 0.3); }
 
 .main__content__block__third {
   width: 30.5%; }
+
+.main__content__block__fullwidth {
+  width: 100%; }
 
 .main__content__block__third--last {
   margin-right: 0; }
@@ -2295,7 +2297,7 @@ table {
   background-color: #F7F7F7; }
 
 .table-allUsers1 th {
-  background-color: #a73a5e;
+  background-color: #213655;
   color: #FFFFFF;
   text-align: left;
   font-weight: 800;
@@ -3290,7 +3292,7 @@ a {
       max-width: 190px; }
 
   .navigation__primary {
-    padding: 30px 0 106px 0; }
+    padding: 15px 0 15px 0; }
 
   .navigation__primary__list, .navigation__secondary {
     display: none; }
@@ -3303,13 +3305,14 @@ a {
 
   .main__content {
     width: 100%;
-    padding: 50px 0; }
+    margin: 50px 0;
+    border: none; }
 
-  .main__content__block {
+  .main__content__block, .main__content ul {
     width: 90%; }
 
   .main__content p, .main__content h1, .main__content h2, .main__content h3 {
-    width: 85%; }
+    width: 90%; }
 
   .form-group p {
     width: 100%; }
@@ -3326,13 +3329,16 @@ a {
 
   .main__content {
     width: 100%;
-    padding: 35px 0; }
+    margin: 35px 0; }
 
   h1 {
-    font-size: 28px; }
+    font-size: 32px; }
 
   h2 {
+    font-size: 24px; }
+
+  h3 {
     font-size: 20px; }
 
   p, .main__content__ul li {
-    font-size: 16px; } }
+    font-size: 18px; } }

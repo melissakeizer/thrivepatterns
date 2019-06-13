@@ -102,7 +102,7 @@ footer{
   max-width: 630px;
 }
 
-.main__content__block__half, .main__content__block__third{
+.main__content__block__half, .main__content__block__third, .main__content__block__fullwidth{
   width: 46.5%;
 	display: inline-block;
 	border: 1px solid $blue__light;
@@ -118,6 +118,10 @@ footer{
 
 .main__content__block__third{
   width: 30.5%;
+}
+
+.main__content__block__fullwidth{
+  width: 100%;
 }
 
 .main__content__block__third--last{

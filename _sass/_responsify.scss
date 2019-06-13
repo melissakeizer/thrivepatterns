@@ -12,7 +12,7 @@
     }
   }
   .navigation__primary{
-    padding: 30px 0 106px 0;
+    padding: 15px 0 15px 0;
   }
 
   .navigation__primary__list, .navigation__secondary{
@@ -29,15 +29,16 @@
 
   .main__content{
     width: 100%;
-    padding: 50px 0;
+    margin: 50px 0;
+    border: none;
   }
 
-  .main__content__block{
+  .main__content__block, .main__content ul{
     width: 90%;
   }
 
   .main__content p, .main__content h1, .main__content h2, .main__content h3{
-    width: 85%;
+    width: 90%;
   }
 
   .form-group p{
@@ -65,19 +66,25 @@
 
   .main__content{
     width: 100%;
-    padding: 35px 0;
+    margin: 35px 0;
   }
 
   h1{
-    font-size: 28px;
+    font-size: 32px;
   }
 
   h2{
+    font-size: 24px;
+  }
+
+  h3{
     font-size: 20px;
   }
 
+
+
   p, .main__content__ul li{
-    font-size: 16px;
+    font-size: 18px;
   }
 
 }
