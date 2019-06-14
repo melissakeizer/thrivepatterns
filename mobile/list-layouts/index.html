@@ -1,7 +1,7 @@
 ---
 layout: mobile-layout
 platform: mobile
-page: mobile-list-layouts
+page: mobile-layouts
 selected: mobile-layouts
 title:  List Layouts
 ---
@@ -24,6 +24,9 @@ title:  List Layouts
 
 <p>The CMS gives App Editors flexibility in how their lists look in the app, as they can choose to display or hide some list elements including the list icons, time stamps and gradients. Titles will always be shown, as will the featured image if the list is a visual one. </p>
 
+<h2>Heros in List</h2>
+<p>Add Editors have the ability to add a "Hero" to their lists, which simply transforms their top list item into a large visual tile. The Hero shows the featured image with the title and other list components overlayed on top. The hero item reflects the ratio of images in the chosen list layout so will be either square (1:1) or rectangle (4:3). </p>
+
 <h2>Our List Layouts</h2>
 <p>There are currently 9 list layout designs available to choose from. Images are presented in either a 1:1 (square) ratio or a 4:3 (rectangle) ratio, with the exception of Letterbox layout which uses a 45:23 ratio. </p>
 
@@ -35,11 +38,23 @@ title:  List Layouts
 <h3>Letterbox</h3>
 <p>If App Editors want to make their list very visual with the use of imagery, but perhaps want to display more items on screen at any one time, Letterbox layout would be a good option. If shows the featured image as the background with textual components overlayed on top of it. This list layout uses a unique image ratio.</p>
 
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/mag.jpg" alt="Polaroid list layout " /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/letterbox.jpg" alt="Mini Polaroid list layout" class="last" /img>
+	<p class="caption">Mag list (left), and Letterbox list layout</p>
+</div>
+
 <h3>Polaroid</h3>
 <p>Similarly to Mag list, Polaroid List displays 4:3 images and one list item per row. This list displays the text elements below the image on a white background so the full image can be viewed more clearly.</p>
 
 <h3>Mini Polaroid</h3>
-<p>Mini Polaroid is variant on Polaroid list, with the main differentiator being that two list items are displayed per row, allowing users to see more posts on the screen at any one time.</p>
+<p>Mini Polaroid is variant on Polaroid list, with the main differentiator being that two list items are displayed per row, allowing users to see more posts on the screen at any one time. If an App Editor chooses to include a hero in this list type the hero item will use the design for the Polaroid list type.  </p>
+
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/polaroid.jpg" alt="Polaroid list layout " /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/minipolaroid.jpg" alt="Mini Polaroid list layout" class="last" /img>
+	<p class="caption">Polaroid list layout (left), and Mini Polaroid Layout with a hero</p>
+</div>
 
 <h3>Square</h3>
 <p>Square list layout shows two list items per row and is square in shape, and the image backgrounds use the 1:1 image ratio. Similarly to Mag list layout, the text elements are overlayed on top of the image.</p>
@@ -47,15 +62,28 @@ title:  List Layouts
 <h3>Headline</h3>
 <p>Headline list showcases a more minimal design and displays one list item per row. Featured images are shown on the right side of the card, but if no featured image is chosen the title text simply span across the full width of the card. </p>
 
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/square.jpg" alt="Square list layout " /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/headline-hero.jpg" alt="Headline list layout" class="last" /img>
+	<p class="caption">Square list with a hero (left), and Headline list layout also shown with a hero</p>
+</div>
+
 <h3>Compact</h3>
 <p>Compact list is a suitable way to display a list of files within an app, as it encompasses a minimal design and takes up the least vertical space out of all of the list layout options. Featured images are displayed on the left of the card in a 1:1 ratio.</p>
 
 <h3>Gallery</h3>
 <p>For completely visual lists, App Editors can use Gallery list layout. This simply displayed the featured image with no other text element shown. However content-type icons are shown in the top-right corner of the list item if enabled. </p>
 
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/compact-hero.jpg" alt="Compact list layout " /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/gallery-hero.jpg" alt="Gallery list layout" class="last" /img>
+	<p class="caption">Compact list with a hero (left), and Gallery list layout</p>
+</div>
+
 <h3>Recognition</h3>
 <p>Unlike the other list layouts, the Recognition layout is only available to Recognition lists. The imagery and text is specific to recognition as the title of each list item is "[Person's Name] has been thanked!" and instead of a featured image, this layout shows the thanked person's profile picture. The profile picture is presented in a circular mask, and a blurred version of the profile image is used as a background.</p>
 
-
-<h2>Heros in List</h2>
-<p>Add Editors have the ability to add a "Hero" to their lists, which simply transforms their top list item into a large visual tile. The Hero shows the featured image with the title and other list components overlayed on top. The hero item reflects the ratio of images in the chosen list layout so will be either square (1:1) or rectangle (4:3). </p>
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/mobile/listlayouts/recognition.jpg" alt="Recognition list layout " /img>
+	<p class="caption">Recognition list layout</p>
+</div>

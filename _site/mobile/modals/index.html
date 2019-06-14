@@ -116,8 +116,8 @@
 <p>Alerts are used to convey information that requires feedback from the user. An alert consists of a title, an optional message, one or more buttons, and optional text fields for gathering input. In most cases two-button alerts should be used to provide users with an easy choice between two actions. Confirming buttons are used to accept and continue with the action, for example, "Ok" or "Send Report," and dismissive buttons should be used to cancel the action. When user acknowledgement is required to proceed, a single action may be presented, for example, a single button with the word "Ok."</p>
 
 <div class="imageContainer imageContainer--two padding__50">
-<img src="/assets/images/native/ios-alert-one-option.jpg" alt="Alert" /img>
-	<img src="/assets/images/native/ios-alert.jpg" alt="Alert" class="last" /img>
+<img src="/assets/images/mobile/ios-alert-one-option.jpg" alt="Alert" /img>
+	<img src="/assets/images/mobile/ios-alert.jpg" alt="Alert" class="last" /img>
 	<p class="caption">Alert with a single action requiring a user to confirm acknowledgement (left), Alert with a cofirming and dismissive action</p>
 </div>
 
@@ -130,8 +130,8 @@
 <p>An activity view shows actions that are relevant to the current context. For example, the actions available for a piece of content include adding a bookmark, copying a link or saving image. We use the Activity View to show sharing options on a shareable piece of content within the app. </p>
 
 <div class="imageContainer imageContainer--two padding__50">
-<img src="/assets/images/native/ios-clear-cache.jpg" alt="Action sheet" /img>
-	<img src="/assets/images/native/ios-activity-view.jpg" alt="Activity view" class="last" /img>
+<img src="/assets/images/mobile/ios-clear-cache.jpg" alt="Action sheet" /img>
+	<img src="/assets/images/mobile/ios-activity-view.jpg" alt="Activity view" class="last" /img>
 	<p class="caption">Action sheet used to clear cache (left), and Activity view in iOS used to show sharing options on a modular page</p>
 </div>
 
@@ -155,8 +155,8 @@
 <p>A Confirmation dialog is a type of Alert Dialog that requires users to confirm a choice before the dialog is dismissed.</p>
 
 <div class="imageContainer imageContainer--two padding__50">
-	<img src="/assets/images/native/android-alert-confirmation-1.jpg" alt="Confirmation Dialog" /img>
-	<img src="/assets/images/native/android-alert-confirmation-2.jpg" alt="Confirmation Dialog" class="last" /img>
+	<img src="/assets/images/mobile/android-alert-confirmation-1.jpg" alt="Confirmation Dialog" /img>
+	<img src="/assets/images/mobile/android-alert-confirmation-2.jpg" alt="Confirmation Dialog" class="last" /img>
 	<p class="caption">A confirmation dialog with one option requiring user acknowledgement (left), a confirmation dialog with a confirming action and dismissive action</p>
 </div>
 
@@ -164,8 +164,8 @@
 <p>In order to display the external share options we make use of Android's expanding bottom sheet component, which appears from the bottom of the screen when the share icon is tapped. The sheet can be pulled upward to reveal more share options.</p>
 
 <div class="imageContainer imageContainer--two padding__50">
-	<img src="/assets/images/native/android-bottom-sheet-1.jpg" alt="Bottom sheet in Android" /img>
-	<img src="/assets/images/native/android-bottom-sheet-2.jpg" alt="Bottom sheet in Android" class="last" /img>
+	<img src="/assets/images/mobile/android-bottom-sheet-1.jpg" alt="Bottom sheet in Android" /img>
+	<img src="/assets/images/mobile/android-bottom-sheet-2.jpg" alt="Bottom sheet in Android" class="last" /img>
 	<p class="caption">An expanding bottom sheet used for external sharing in Android</p>
 </div>
 
@@ -173,8 +173,8 @@
 <p>It is important to identify dangerous or destructive buttons to users by using red text to highlight the button, rather than the standard blue button colour as this warns the user and encourages them to think if this action is definitely one they want to go through with. For example, actions such as "Clear Cache" and "Delete" should be highlighted in red when presented in modals. </p>
 
 <div class="imageContainer imageContainer--two padding__50">
-	<img src="/assets/images/native/android-clear-cache.jpg" alt="Destructive action highlighted" /img>
-	<img src="/assets/images/native/ios-report-comment.jpg" alt="Destructive action highlighted" class="last" /img>
+	<img src="/assets/images/mobile/android-clear-cache.jpg" alt="Destructive action highlighted" /img>
+	<img src="/assets/images/mobile/ios-report-comment.jpg" alt="Destructive action highlighted" class="last" /img>
 	<p class="caption">Potentially dangerous or destructive actions such as clearing the cache or reporting a comment should be highlighted with the red colour</p>
 </div>
 
@@ -184,14 +184,14 @@
 <h3>Dismissive Alert</h3>
 <p>These should call an iOS alert and Android dialog with a single action button. Often this action is OK. Note that when only one sentence of text is required in an alert iOS should show it as title text but Android should show it as paragraph text.</p>
 <div class="imageContainer imageContainer--one padding__50">
-	<img src="/assets/images/native/modal-mapping-dismissive-alert.jpg" alt="" /img>
+	<img src="/assets/images/mobile/modal-mapping-dismissive-alert.jpg" alt="" /img>
 	<p class="caption">Dismissive Alerts show only one action button</p>
 </div>
 
 <h3>Standard Alert</h3>
 <p>These should call an iOS alert and Android dialog with two action buttons, one confirming and one dismissive. Often these alerts will contain both a title and paragraph text. Note that the optional text type is different in Android and iOS. If only a short sentence is needed for the alert it should be styled as a title in an iOS alert, while it should be styled as paragraph text in the Android dialog with no title.</p>
 <div class="imageContainer imageContainer--one padding__50">
-	<img src="/assets/images/native/modal-mapping-standard-alert.jpg" alt="" /img>
+	<img src="/assets/images/mobile/modal-mapping-standard-alert.jpg" alt="" /img>
 	<p class="caption">Standard alerts show two action buttons - one a confirming action, one dismissive</p>
 </div>
 
@@ -199,21 +199,21 @@
 <h3>Multiple Action Alert</h3>
 <p>When more than two action buttons are needed multiple action alerts can be called. Buttons are vertically stacked in these type of alerts.</p>
 <div class="imageContainer imageContainer--one padding__50">
-	<img src="/assets/images/native/modal-mapping-multiple-action-alert.jpg" alt="" /img>
+	<img src="/assets/images/mobile/modal-mapping-multiple-action-alert.jpg" alt="" /img>
 	<p class="caption">Multiple action buttons can be displayed in an Multiple Action Alert</p>
 </div>
 
 <h3>Context Menu</h3>
 <p>Options related to a particular context of a page or section are often called with Context menus, for example when accessing interaction options for a comment.</p>
 <div class="imageContainer imageContainer--one padding__50">
-	<img src="/assets/images/native/modal-mapping-context-menu.jpg" alt="" /img>
+	<img src="/assets/images/mobile/modal-mapping-context-menu.jpg" alt="" /img>
 	<p class="caption">Context menus call iOS action sheet and Android context menu</p>
 </div>
 
 <h3>Alert with Input</h3>
 <p>When a user needs to input their own text they can call an alert with an input field (containing placeholder text). These should also have a confirmation action and dismissive action. Note that iOS input alerts do not have titles. </p>
 <div class="imageContainer imageContainer--one padding__50">
-	<img src="/assets/images/native/modal-mapping-alert-with-input.jpg" alt="" /img>
+	<img src="/assets/images/mobile/modal-mapping-alert-with-input.jpg" alt="" /img>
 	<p class="caption">Alerts with inputs in both iOS and Android</p>
 </div>
 
