@@ -16,9 +16,9 @@ title: Modal Types & Mapping Modals Cross Platform
 <p>Alerts are used to convey information that requires feedback from the user. An alert consists of a title, an optional message, one or more buttons, and optional text fields for gathering input. In most cases two-button alerts should be used to provide users with an easy choice between two actions. Confirming buttons are used to accept and continue with the action, for example, "Ok" or "Send Report," and dismissive buttons should be used to cancel the action. When user acknowledgement is required to proceed, a single action may be presented, for example, a single button with the word "Ok."</p>
 
 <div class="imageContainer imageContainer--two padding__50">
-<img src="{{ site.baseurl }}/assets/images/mobile/ios-alert-one-option.jpg" alt="Alert" /img>
-	<img src="{{ site.baseurl }}/assets/images/mobile/ios-alert.jpg" alt="Alert" class="last" /img>
-	<p class="caption">Alert with a single action requiring a user to confirm acknowledgement (left), Alert with a cofirming and dismissive action</p>
+<img src="{{ site.baseurl }}/assets/images/mobile/ios-alert-dismissive.jpg" alt="Alert" /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/ios-alert-logout.jpg" alt="Alert" class="last" /img>
+	<p class="caption">Alert with a single action requiring a user to confirm acknowledgement (left), Alert with a confirming and dismissive action</p>
 </div>
 
 <h3>Action Sheets</h3>
@@ -30,8 +30,8 @@ title: Modal Types & Mapping Modals Cross Platform
 <p>An activity view shows actions that are relevant to the current context. For example, the actions available for a piece of content include adding a bookmark, copying a link or saving image. We use the Activity View to show sharing options on a shareable piece of content within the app. </p>
 
 <div class="imageContainer imageContainer--two padding__50">
-<img src="{{ site.baseurl }}/assets/images/mobile/ios-clear-cache.jpg" alt="Action sheet" /img>
-	<img src="{{ site.baseurl }}/assets/images/mobile/ios-activity-view.jpg" alt="Activity view" class="last" /img>
+<img src="{{ site.baseurl }}/assets/images/mobile/ios-actionsheet.jpg" alt="Action sheet" /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/ios-share.jpg" alt="Activity view" class="last" /img>
 	<p class="caption">Action sheet used to clear cache (left), and Activity view in iOS used to show sharing options on a modular page</p>
 </div>
 
@@ -55,8 +55,8 @@ title: Modal Types & Mapping Modals Cross Platform
 <p>A Confirmation dialog is a type of Alert Dialog that requires users to confirm a choice before the dialog is dismissed.</p>
 
 <div class="imageContainer imageContainer--two padding__50">
-	<img src="{{ site.baseurl }}/assets/images/mobile/android-alert-confirmation-1.jpg" alt="Confirmation Dialog" /img>
-	<img src="{{ site.baseurl }}/assets/images/mobile/android-alert-confirmation-2.jpg" alt="Confirmation Dialog" class="last" /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/android-confirmation-dialog-1.jpg" alt="Confirmation Dialog" /img>
+	<img src="{{ site.baseurl }}/assets/images/mobile/android-confirmation-dialog-2.jpg" alt="Confirmation Dialog" class="last" /img>
 	<p class="caption">A confirmation dialog with one option requiring user acknowledgement (left), a confirmation dialog with a confirming action and dismissive action</p>
 </div>
 
@@ -115,4 +115,12 @@ title: Modal Types & Mapping Modals Cross Platform
 <div class="imageContainer imageContainer--one padding__50">
 	<img src="{{ site.baseurl }}/assets/images/mobile/modal-mapping-alert-with-input.jpg" alt="" /img>
 	<p class="caption">Alerts with inputs in both iOS and Android</p>
+</div>
+
+
+<h2>Custom Modal</h2>
+<p>We also use custom designed modal alerts for particular interactions, such as celebrating completion of the registration steps by a new user. The modals include an image (often animated), text and a call to action button. These can be dismissed by tapping on the close icon in the right corner, or by tapping on the button inside the modal.</p>
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/mobile/custom-modal.jpg" alt="Custom modal" /img>
+	<p class="caption">Custom modal seen by newly registered users</p>
 </div>
