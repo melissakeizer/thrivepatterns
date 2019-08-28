@@ -58,6 +58,18 @@ p{
   }
 }
 
+h1.title{
+	color: $pink;
+	font-size: 60px;
+	padding-bottom: 0.1em;
+}
+
+p.strapline{
+	@include halyardRegular;
+	font-size: 25px;
+	padding-bottom: 0.7em;
+}
+
 
 
 /* Link Styles

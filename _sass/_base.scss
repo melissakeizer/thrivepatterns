@@ -42,6 +42,12 @@ body{
   min-height: 500px;
 }
 
+.main__content--single{
+  float:none;
+  border:none;
+  margin: 80px auto;
+}
+
 .main__content--home{
   border: none;
   margin: 80px auto;
@@ -81,6 +87,7 @@ footer{
 	padding: 5% 0 5% 0;
 	text-align: center;
 	font-size: 14px;
+  color: #A6B6C1;
 }
 
 
@@ -257,5 +264,37 @@ li.colour__block{
     &.last{
       margin-right: 0;
     }
+  }
+}
+
+
+/* Homepage Styles
+------------------------------------------------------------------ */
+
+.home__container{
+  width: 100%;
+  float: none;
+  padding: 8em 0;
+}
+
+.home__image{
+  float: left;
+  width: 60%;
+}
+
+.home__content{
+  float: left;
+  width: 40%;
+  padding-top: 35px;
+}
+
+.button{
+  @include halyardMedium;
+  padding: 9px 18px;
+  color: $white;
+  font-size: 19px;
+  border-radius: 5px;
+  &--pink{
+  background-color: $pink;
   }
 }
