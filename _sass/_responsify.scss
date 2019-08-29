@@ -7,7 +7,7 @@
   }
 
   .home__image, .home__content{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     float: none;
     padding-bottom: 4em;
@@ -28,7 +28,7 @@
     }
   }
   .navigation__primary{
-    padding: 15px 0 15px 0;
+    padding: 12px 0 12px 0;
   }
 
   .navigation__primary__list, .navigation__secondary{
@@ -102,5 +102,25 @@
   p, .main__content__ul li{
     font-size: 18px;
   }
+
+  h1.title{
+    font-size: 48px;
+  }
+
+  p.strapline{
+    font-size: 22px;
+  }
+
+  .home__container{
+    padding: 1em 0;
+  }
+
+  .home__image, .home__content{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+
 
 }

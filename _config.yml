@@ -5,6 +5,13 @@ description: > # this means to ignore newlines until "baseurl:"
  Thrives's centralised hub for showcasing our design rules, principles, and frontend components.
 baseurl: "/thrivepatterns" # the subpath of your site, e.g. /blog
 url: "https://melissakeizer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# For Github pages site
+# baseurl /thrivepatterns
+# url https://melissakeizer.github.io
+# For local development keep these blank
+
+
 twitter_username: theappbuilder
 github_username:  theappbuilder
 website_url:
