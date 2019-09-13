@@ -3,8 +3,8 @@ title: Thrive Pattern Library
 email: melissa.keizer@theappbuilder.com
 description: > # this means to ignore newlines until "baseurl:"
  Thrives's centralised hub for showcasing our design rules, principles, and frontend components.
-baseurl: "/thrivepatterns" # the subpath of your site, e.g. /blog
-url: "https://melissakeizer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://patterns.thrive.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 # For Github pages site
 # baseurl /thrivepatterns
