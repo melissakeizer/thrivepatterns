@@ -122,6 +122,24 @@ a{
   @include halyardBook;
 }
 
+.mobileScreen__socialActionBarText{
+	color: $PlaceholderColour;
+  font-size: 13px;
+  @include halyardBook;
+}
+
+.mobileModularPage__commenterInfo{
+	color: $PlaceholderColour;
+  font-size: 13px;
+  @include halyardBook;
+}
+
+.mobileModularPage__commentReplyLink{
+	color: $LinkColour;
+  font-size: 13px;
+  @include halyardMedium;
+}
+
 
 
 

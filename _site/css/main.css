@@ -2984,7 +2984,7 @@ input[type="text"].searchUsers--searchBox {
 .secondaryButton {
   background-color: #ffffff;
   color: #181E26;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #E0E0E0;
   padding: 10px 50px 13px 50px; }
   .secondaryButton--pressed {
     background-color: #EAEDF1; }
@@ -3000,7 +3000,7 @@ input[type="text"].searchUsers--searchBox {
 .radioButton {
   background-color: #ffffff;
   color: #181E26;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #E0E0E0;
   padding: 10px 30px 13px 30px;
   margin: 10px 10px 10px 0px; }
   .radioButton--active {
@@ -3008,9 +3008,10 @@ input[type="text"].searchUsers--searchBox {
     border-color: #181E26; }
 
 li.colour__block {
-  width: 22.6%;
-  margin-right: 2%;
-  height: 135px;
+  width: 31%;
+  margin-right: 1.8%;
+  margin-bottom: 1.8%;
+  height: 165px;
   display: inline-block;
   position: relative;
   border-radius: 7px; }
@@ -3027,14 +3028,32 @@ li.colour__block--SecondaryBodyColour {
 li.colour__block--PlaceholderColour {
   background: #9CA9BC; }
 
-li.colour__block--MetaTextColour {
-  background: #738BB2; }
+li.colour__block--LinkColour {
+  background: #738bb2; }
 
-li.colour__block--BorderGrey {
+li.colour__block--ErrorTextColour {
+  background: #DF0604; }
+
+li.colour__block--PrimaryDividerColour {
   background: #C9C9C9; }
 
-li.colour__block--SubtleGrey {
-  background: #E2E2E2; }
+li.colour__block--SubtleDividerColour {
+  background: #e0e0e0; }
+
+li.colour__block--BackgroundGrey {
+  background: #F6F6F6; }
+
+li.colour__block--DarkBackgroundColour {
+  background: #2C313A; }
+
+li.colour__block--ImageBackgroundColour {
+  background: #C9C9C9; }
+
+li.colour__block--SocialBackgroundColour {
+  background: #F9F9F9; }
+
+li.colour__block--SocialCommentDividerColour {
+  background: #E5E6EA; }
 
 li.colour__block--LikeIconColour {
   background: #D22B36; }
@@ -3042,8 +3061,14 @@ li.colour__block--LikeIconColour {
 li.colour__block--CommentIconColour {
   background: #738BB2; }
 
-li.colour__block--LinkColour {
-  background: #106DE0; }
+li.colour__block--NotificationReadColour {
+  background: #FFFFFF; }
+
+li.colour__block--NotificationUnreadColour {
+  background: #F1F7FF; }
+
+li.colour__block--TrayBarInactiveColour {
+  background: #AAAAAA; }
 
 /* Typography for Web App
 ------------------------------------------------------------------ */
@@ -3129,6 +3154,27 @@ a {
   font-weight: 300;
   font-style: normal; }
 
+.mobileScreen__socialActionBarText {
+  color: #9CA9BC;
+  font-size: 13px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
+
+.mobileModularPage__commenterInfo {
+  color: #9CA9BC;
+  font-size: 13px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 300;
+  font-style: normal; }
+
+.mobileModularPage__commentReplyLink {
+  color: #738BB2;
+  font-size: 13px;
+  font-family: halyard-display, sans-serif;
+  font-weight: 500;
+  font-style: normal; }
+
 /* Screen Styles
 ------------------------------------------------------------------ */
 .mobileScreen__heading1 {
@@ -3153,7 +3199,7 @@ a {
   font-style: normal; }
 
 .mobileScreen__metatext {
-  color: #9CA9BC;
+  color: #637289;
   font-size: 13px;
   font-family: halyard-display, sans-serif;
   font-weight: 300;

@@ -5,11 +5,17 @@ $PrimaryBodyColour: #181E26;
 $SecondaryBodyColour: #637289;
 $LinkColour: #738BB2;
 $PlaceholderColour: #9CA9BC;
-$MetaTextColour: #9CA9BC;
 
-$BorderGrey: #C9C9C9;
-$SubtleGrey: #E2E2E2;
-$ActiveButtonGrey: #EAEDF1;
+$ErrorTextColour:#DF0604;
+
+$PrimaryGrey: #C9C9C9;
+$SubtleGrey: #E0E0E0;
 
 $LikeIconColour: #D22B36;
 $CommentIconColour: #738BB2;
+
+$ActiveButtonGrey: #EAEDF1;
+
+$MetaTextColour: $SecondaryBodyColour;
+$SubtleTextColour: $PlaceholderColour;
+$BorderGrey: $PrimaryGrey;

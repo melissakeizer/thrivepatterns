@@ -1,7 +1,8 @@
 li.colour__block {
-width: 22.6%;
-margin-right: 2%;
-height: 135px;
+width: 31%;
+margin-right: 1.8%;
+margin-bottom: 1.8%;
+height: 165px;
 display: inline-block;
 position: relative;
 border-radius: 7px; }
@@ -9,21 +10,51 @@ border-radius: 7px; }
 li.colour__block:last-child {
 margin-right: 0; }
 
+// Modular Page
 li.colour__block--PrimaryBodyColour {
 background: #181E26; }
 li.colour__block--SecondaryBodyColour {
 background: #637289; }
 li.colour__block--PlaceholderColour {
 background: #9CA9BC; }
-li.colour__block--MetaTextColour {
-background: #738BB2; }
-li.colour__block--BorderGrey {
+li.colour__block--LinkColour {
+background: #738bb2; }
+li.colour__block--ErrorTextColour {
+background: #DF0604;}
+
+
+// Background Colours
+li.colour__block--PrimaryDividerColour {
 background: #C9C9C9; }
-li.colour__block--SubtleGrey {
-background: #E2E2E2; }
+li.colour__block--SubtleDividerColour{
+background: #e0e0e0; }
+
+li.colour__block--BackgroundGrey{
+background: #F6F6F6; }
+li.colour__block--DarkBackgroundColour {
+background: #2C313A; }
+li.colour__block--ImageBackgroundColour {
+background: #C9C9C9; }
+
+// Social Area
+li.colour__block--SocialBackgroundColour {
+background: #F9F9F9; }
+li.colour__block--SocialCommentDividerColour {
+background: #E5E6EA; }
 li.colour__block--LikeIconColour {
 background: #D22B36; }
 li.colour__block--CommentIconColour {
 background: #738BB2; }
-li.colour__block--LinkColour {
-background: #106DE0; }
+
+
+
+// Notificaton Area
+li.colour__block--NotificationReadColour {
+background: #FFFFFF; }
+li.colour__block--NotificationUnreadColour {
+background: #F1F7FF; }
+
+
+// Tray Bar
+li.colour__block--TrayBarInactiveColour {
+background: #AAAAAA; }
